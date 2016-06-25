@@ -326,58 +326,57 @@ body{
 	}
   }
 }
-@media (min-width: 1200px) { /*md and up*/
+@media (min-width: 1200px) { /*lg and up*/
   body{
 	font-size:14px;
-  }
-  
-  .lg-up-25rem, .lg-25rem{
+  }  
+  .lg-25rem, .lg-up-25rem{
 	font-size:0.25rem;
   }
-  .lg-up-50rem, .lg-50rem{
+  .lg-50rem, .lg-up-50rem{
 	font-size:0.5rem;
   }
-  .lg-up-75rem, .lg-75rem{
+  .lg-75rem, .lg-up-75rem{
 	font-size:0.75rem;
   }
-  .lg-up-100rem, .lg-100rem{
+  .lg-100rem, .lg-up-100rem{
 	font-size:1rem;
   }
-  .lg-up-125rem, .lg-125rem{
+  .lg-125rem, .lg-up-125rem{
 	font-size:1.25rem;
   }
-  .lg-up-150rem, .lg-150rem{
+  .lg-150rem, .lg-up-150rem{
 	font-size:1.5rem;
   }
-  .lg-up-175rem, .lg-175rem{
+  .lg-175rem, .lg-up-175rem{
 	font-size:1.75rem;
   }
-  .lg-up-200rem, .lg-200rem{
+  .lg-200rem, .lg-up-200rem{
 	font-size:2rem;
   }
   
-  .lg-up-25em, .lg-25em{
+  .lg-25em, .lg-up-25em{
 	font-size:0.25em;
   }
-  .lg-up-50em, .lg-50em{
+  .lg-50em, .lg-up-50em{
 	font-size:0.5em;
   }
-  .lg-up-75emm .lg-75em{
+  .lg-75em, .lg-up-75em{
 	font-size:0.75em;
   }
-  .lg-up-100emm .lg-100em{
+  .lg-100em, .lg-up-100em{
 	font-size:1em;
   }
-  .lg-up-125em, .lg-125em{
+  .lg-125em, .lg-up-125em{
 	font-size:1.25em;
   }
-  .lg-up-150em, .lg-150em{
+  .lg-150em, .lg-up-150em{
 	font-size:1.5em;
   }
-  .lg-up-175em, .lg-175em{
+  .lg-175em, .lg-up-175em{
 	font-size:1.75em;
   }
-  .lg-up-200em, .lg-200em{
+  .lg-200em, .lg-up-200em {
 	font-size:2em;
   }
 }
