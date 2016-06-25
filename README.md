@@ -3,7 +3,7 @@ Fontstrap is a bootstrap plugin that lets you adjust your font size. There's lit
 
 <h1>Documentations</h1>
 <h2>How to use:</h2>
-<p>class name convention: size-#em, size-#rem, "scale"-up-#em, "scale"-up-#em </p>
+<p>class name convention: size-#em, size-#rem, "scale"-#em, "scale"-up-#em </p>
 <p>for a flat adjustment of something to 1.5em for a "span" element you'd use class="size-150em" and same goes for rem units if you're using that</p>
 <p>the scale-units have 2 parts, for example md-125em would make the font size only 1.25em when the screen fits the condition for md (see bootstrap) if you want the font size to be applied to all fonts and up like bootstrap use something like "md-up-125em"</p>
 <p>the numbers that are supported right now is 25, 50, 75, 125, 150, 172, 200 which I feel is plenty to get you started. You are free to modify them as you wish.</p>
