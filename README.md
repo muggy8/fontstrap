@@ -1,5 +1,5 @@
 # fontstrap
-Fontstrap is a bootstrap plugin that lets you adjust your font size. There's literally nothing else with a few extra auxiliary functions.
+Fontstrap is a bootstrap plugin that lets you adjust your font size. There's literally nothing else other than a few extra auxiliary functions.
 
 <h1>Documentations</h1>
 <h2>How to use:</h2>
