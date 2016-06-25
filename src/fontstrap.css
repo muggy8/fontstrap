@@ -3,6 +3,7 @@
 	font-family: inherit;
 	font-weight:inherit;
 	color: inherit;
+	transition:font-size 0.25s;
 }
 body{
 	font-size:20px;
@@ -101,7 +102,7 @@ body{
   }
 }
 @media (min-width: 768px) { /*sm and up*/
-  html{
+  body{
 	font-size:18px;
   }
   
@@ -196,7 +197,7 @@ body{
   }
 }
 @media (min-width: 992px) { /*md and up*/
-  html{
+  body{
 	font-size:16px;
   }
   .md-up-25rem{
@@ -290,7 +291,7 @@ body{
   }
 }
 @media (min-width: 1200px) { /*md and up*/
-  html{
+  body{
 	font-size:14px;
   }
   
