@@ -408,3 +408,6 @@ body{
 .mono-spacefix{
 	padding-right:0.5em;
 }
+.clear-both{
+	clear:both;
+}
