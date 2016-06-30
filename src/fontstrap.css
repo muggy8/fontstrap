@@ -38,36 +38,36 @@ html{
 }
 
 .size-25em, .xs-up-25em{
-	font-size:0.25em;
 	font-size:25%;
+	font-size:0.25em;
 }
 .size-50em, .xs-up-50em{
-	font-size:0.5em;
 	font-size:50%;
+	font-size:0.5em;
 }
 .size-75em, .xs-up-75em{
-	font-size:0.75em;
 	font-size:75%;
+	font-size:0.75em;
 }
 .size-100em, .xs-up-100em{
-	font-size:1em;
 	font-size:100%;
+	font-size:1em;
 }
 .size-125em, .xs-up-125em{
-	font-size:1.25em;
 	font-size:125%;
+	font-size:1.25em;
 }
 .size-150em, .xs-up-150em{
-	font-size:1.5em;
 	font-size:150%;
+	font-size:1.5em;
 }
 .size-175em, .xs-up-175em{
-	font-size:1.75em;
 	font-size:175%;
+	font-size:1.75em;
 }
 .size-200em, .xs-up-200em{
-	font-size:2em;
 	font-size:200%;
+	font-size:2em;
 }
 
 @media (max-width: 767px) { /*less than xs*/
@@ -97,36 +97,36 @@ html{
   }
   
   .xs-25em{
-	font-size:0.25em;
 	font-size:25%;
+	font-size:0.25em;
   }
   .xs-50em{
-	font-size:0.5em;
 	font-size:50%;
+	font-size:0.5em;
   }
   .xs-75em{
-	font-size:0.75em;
 	font-size:75%;
+	font-size:0.75em;
   }
   .xs-100em{
-	font-size:1em;
 	font-size:100%;
+	font-size:1em;
   }
   .xs-125em{
-	font-size:1.25em;
 	font-size:125%;
+	font-size:1.25em;
   }
   .xs-150em{
-	font-size:1.5em;
 	font-size:150%;
+	font-size:1.5em;
   }
   .xs-175em{
-	font-size:1.75em;
 	font-size:175%;
+	font-size:1.75em;
   }
   .xs-200em{
-	font-size:2em;
 	font-size:200%;
+	font-size:2em;
   }
 }
 @media (min-width: 768px) { /*sm and up*/
@@ -160,36 +160,36 @@ html{
   }
   
   .sm-up-25em{
-	font-size:0.25em;
 	font-size:25%;
+	font-size:0.25em;
   }
   .sm-up-50em{
-	font-size:0.5em;
 	font-size:50%;
+	font-size:0.5em;
   }
   .sm-up-75em{
-	font-size:0.75em;
 	font-size:75%;
+	font-size:0.75em;
   }
   .sm-up-100em{
-	font-size:1em;
 	font-size:100%;
+	font-size:1em;
   }
   .sm-up-125em{
-	font-size:1.25em;
 	font-size:125%;
+	font-size:1.25em;
   }
   .sm-up-150em{
-	font-size:1.5em;
 	font-size:150%;
+	font-size:1.5em;
   }
   .sm-up-175em{
-	font-size:1.75em;
 	font-size:175%;
+	font-size:1.75em;
   }
   .sm-up-200em{
-	font-size:2em;
 	font-size:200%;
+	font-size:2em;
   }
 
   @media (max-width: 991px) { /*and less than md*/
@@ -219,36 +219,36 @@ html{
 	}
 	
 	.sm-25em{
-		font-size:0.25em;
 		font-size:25%;
+		font-size:0.25em;
 	}
 	.sm-50em{
-		font-size:0.5em;
 		font-size:50%;
+		font-size:0.5em;
 	}
 	.sm-75em{
-		font-size:0.75em;
 		font-size:75%;
+		font-size:0.75em;
 	}
 	.sm-100em{
-		font-size:1em;
 		font-size:100%;
+		font-size:1em;
 	}
 	.sm-125em{
-		font-size:1.25em;
 		font-size:125%;
+		font-size:1.25em;
 	}
 	.sm-150em{
-		font-size:1.5em;
 		font-size:150%;
+		font-size:1.5em;
 	}
 	.sm-175em{
-		font-size:1.75em;
 		font-size:175%;
+		font-size:1.75em;
 	}
 	.sm-200em{
-		font-size:2em;
 		font-size:200%;
+		font-size:2em;
 	}
   }
 }
@@ -282,36 +282,36 @@ html{
   }
   
   .md-up-25em{
-	font-size:0.25em;
 	font-size:25%;
+	font-size:0.25em;
   }
   .md-up-50em{
-	font-size:0.5em;
 	font-size:50%;
+	font-size:0.5em;
   }
   .md-up-75em{
-	font-size:0.75em;
 	font-size:75%;
+	font-size:0.75em;
   }
   .md-up-100em{
-	font-size:1em;
 	font-size:100%;
+	font-size:1em;
   }
   .md-up-125em{
-	font-size:1.25em;
 	font-size:125%;
+	font-size:1.25em;
   }
   .md-up-150em{
-	font-size:1.5em;
 	font-size:150%;
+	font-size:1.5em;
   }
   .md-up-175em{
-	font-size:1.75em;
-	font-size:175%;
+	font-size:175%
+	font-size:1.75em;;
   }
   .md-up-200em{
-	font-size:2em;
 	font-size:200%;
+	font-size:2em;
   }
   
   @media (max-width: 1199px) { /*and less than lg*/
@@ -341,36 +341,36 @@ html{
 	}
 	
 	.md-25em{
-		font-size:0.25em;
 		font-size:25%;
+		font-size:0.25em;
 	}
 	.md-50em{
-		font-size:0.5em;
 		font-size:50%;
+		font-size:0.5em;
 	}
 	.md-75em{
-		font-size:0.75em;
 		font-size:75%;
+		font-size:0.75em;
 	}
 	.md-100em{
-		font-size:1em;
 		font-size:100%;
+		font-size:1em;
 	}
 	.md-125em{
-		font-size:1.25em;
 		font-size:125%;
+		font-size:1.25em;
 	}
 	.md-150em{
-		font-size:1.5em;
 		font-size:150%;
+		font-size:1.5em;
 	}
 	.md-175em{
-		font-size:1.75em;
 		font-size:175%;
+		font-size:1.75em;
 	}
 	.md-200em{
-		font-size:2em;
 		font-size:200%;
+		font-size:2em;
 	}
   }
 }
@@ -404,36 +404,36 @@ html{
   }
   
   .lg-25em, .lg-up-25em{
-	font-size:0.25em;
 	font-size:25%;
+	font-size:0.25em;
   }
   .lg-50em, .lg-up-50em{
-	font-size:0.5em;
 	font-size:50%;
+	font-size:0.5em;
   }
   .lg-75em, .lg-up-75em{
-	font-size:0.75em;
 	font-size:75%;
+	font-size:0.75em;
   }
   .lg-100em, .lg-up-100em{
-	font-size:1em;
 	font-size:100%;
+	font-size:1em;
   }
   .lg-125em, .lg-up-125em{
-	font-size:1.25em;
 	font-size:125%;
+	font-size:1.25em;
   }
   .lg-150em, .lg-up-150em{
-	font-size:1.5em;
 	font-size:150%;
+	font-size:1.5em;
   }
   .lg-175em, .lg-up-175em{
-	font-size:1.75em;
 	font-size:175%;
+	font-size:1.75em;
   }
   .lg-200em, .lg-up-200em {
-	font-size:2em;
 	font-size:200%;
+	font-size:2em;
   }
 }
 .padless{
@@ -458,6 +458,12 @@ html{
 	margin-top:0;
 	margin-bottom:0;
 }
+/*.spacefix{
+	padding-right:0.25em;
+}
+.mono-spacefix{
+	padding-right:0.5em;
+}*/
 .spacefix:after{
 	content: " ";
 }
