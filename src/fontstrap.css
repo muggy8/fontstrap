@@ -458,11 +458,8 @@ html{
 	margin-top:0;
 	margin-bottom:0;
 }
-.spacefix{
-	padding-right:0.25em;
-}
-.mono-spacefix{
-	padding-right:0.5em;
+.spacefix:after{
+	content: " ";
 }
 .clear-both{
 	clear:both;
