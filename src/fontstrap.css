@@ -5,7 +5,7 @@
 	color: inherit;
 	transition:font-size 0.25s;
 }
-body{
+html{
 	font-size:20px;
 	font-family: "Trebuchet MS", Helvetica, sans-serif;
 	-ms-text-size-adjust: 100%;
@@ -39,27 +39,35 @@ body{
 
 .size-25em, .xs-up-25em{
 	font-size:0.25em;
+	font-size:25%;
 }
 .size-50em, .xs-up-50em{
 	font-size:0.5em;
+	font-size:50%;
 }
 .size-75em, .xs-up-75em{
 	font-size:0.75em;
+	font-size:75%;
 }
 .size-100em, .xs-up-100em{
 	font-size:1em;
+	font-size:100%;
 }
 .size-125em, .xs-up-125em{
 	font-size:1.25em;
+	font-size:125%;
 }
 .size-150em, .xs-up-150em{
 	font-size:1.5em;
+	font-size:150%;
 }
 .size-175em, .xs-up-175em{
 	font-size:1.75em;
+	font-size:175%;
 }
 .size-200em, .xs-up-200em{
 	font-size:2em;
+	font-size:200%;
 }
 
 @media (max-width: 767px) { /*less than xs*/
@@ -90,31 +98,39 @@ body{
   
   .xs-25em{
 	font-size:0.25em;
+	font-size:25%;
   }
   .xs-50em{
 	font-size:0.5em;
+	font-size:50%;
   }
   .xs-75em{
 	font-size:0.75em;
+	font-size:75%;
   }
   .xs-100em{
 	font-size:1em;
+	font-size:100%;
   }
   .xs-125em{
 	font-size:1.25em;
+	font-size:125%;
   }
   .xs-150em{
 	font-size:1.5em;
+	font-size:150%;
   }
   .xs-175em{
 	font-size:1.75em;
+	font-size:175%;
   }
   .xs-200em{
 	font-size:2em;
+	font-size:200%;
   }
 }
 @media (min-width: 768px) { /*sm and up*/
-  body{
+  html{
 	font-size:18px;
   }
   
@@ -145,27 +161,35 @@ body{
   
   .sm-up-25em{
 	font-size:0.25em;
+	font-size:25%;
   }
   .sm-up-50em{
 	font-size:0.5em;
+	font-size:50%;
   }
   .sm-up-75em{
 	font-size:0.75em;
+	font-size:75%;
   }
   .sm-up-100em{
 	font-size:1em;
+	font-size:100%;
   }
   .sm-up-125em{
 	font-size:1.25em;
+	font-size:125%;
   }
   .sm-up-150em{
 	font-size:1.5em;
+	font-size:150%;
   }
   .sm-up-175em{
 	font-size:1.75em;
+	font-size:175%;
   }
   .sm-up-200em{
 	font-size:2em;
+	font-size:200%;
   }
 
   @media (max-width: 991px) { /*and less than md*/
@@ -196,32 +220,40 @@ body{
 	
 	.sm-25em{
 		font-size:0.25em;
+		font-size:25%;
 	}
 	.sm-50em{
 		font-size:0.5em;
+		font-size:50%;
 	}
 	.sm-75em{
 		font-size:0.75em;
+		font-size:75%;
 	}
 	.sm-100em{
 		font-size:1em;
+		font-size:100%;
 	}
 	.sm-125em{
 		font-size:1.25em;
+		font-size:125%;
 	}
 	.sm-150em{
 		font-size:1.5em;
+		font-size:150%;
 	}
 	.sm-175em{
 		font-size:1.75em;
+		font-size:175%;
 	}
 	.sm-200em{
 		font-size:2em;
+		font-size:200%;
 	}
   }
 }
 @media (min-width: 992px) { /*md and up*/
-  body{
+  html{
 	font-size:16px;
   }
   .md-up-25rem{
@@ -251,27 +283,35 @@ body{
   
   .md-up-25em{
 	font-size:0.25em;
+	font-size:25%;
   }
   .md-up-50em{
 	font-size:0.5em;
+	font-size:50%;
   }
   .md-up-75em{
 	font-size:0.75em;
+	font-size:75%;
   }
   .md-up-100em{
 	font-size:1em;
+	font-size:100%;
   }
   .md-up-125em{
 	font-size:1.25em;
+	font-size:125%;
   }
   .md-up-150em{
 	font-size:1.5em;
+	font-size:150%;
   }
   .md-up-175em{
 	font-size:1.75em;
+	font-size:175%;
   }
   .md-up-200em{
 	font-size:2em;
+	font-size:200%;
   }
   
   @media (max-width: 1199px) { /*and less than lg*/
@@ -302,32 +342,40 @@ body{
 	
 	.md-25em{
 		font-size:0.25em;
+		font-size:25%;
 	}
 	.md-50em{
 		font-size:0.5em;
+		font-size:50%;
 	}
 	.md-75em{
 		font-size:0.75em;
+		font-size:75%;
 	}
 	.md-100em{
 		font-size:1em;
+		font-size:100%;
 	}
 	.md-125em{
 		font-size:1.25em;
+		font-size:125%;
 	}
 	.md-150em{
 		font-size:1.5em;
+		font-size:150%;
 	}
 	.md-175em{
 		font-size:1.75em;
+		font-size:175%;
 	}
 	.md-200em{
 		font-size:2em;
+		font-size:200%;
 	}
   }
 }
 @media (min-width: 1200px) { /*lg and up*/
-  body{
+  html{
 	font-size:14px;
   }  
   .lg-25rem, .lg-up-25rem{
@@ -357,27 +405,35 @@ body{
   
   .lg-25em, .lg-up-25em{
 	font-size:0.25em;
+	font-size:25%;
   }
   .lg-50em, .lg-up-50em{
 	font-size:0.5em;
+	font-size:50%;
   }
   .lg-75em, .lg-up-75em{
 	font-size:0.75em;
+	font-size:75%;
   }
   .lg-100em, .lg-up-100em{
 	font-size:1em;
+	font-size:100%;
   }
   .lg-125em, .lg-up-125em{
 	font-size:1.25em;
+	font-size:125%;
   }
   .lg-150em, .lg-up-150em{
 	font-size:1.5em;
+	font-size:150%;
   }
   .lg-175em, .lg-up-175em{
 	font-size:1.75em;
+	font-size:175%;
   }
   .lg-200em, .lg-up-200em {
 	font-size:2em;
+	font-size:200%;
   }
 }
 .padless{
