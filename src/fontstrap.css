@@ -18,6 +18,9 @@ html{
 .instant-em-pass *{
 	transition:font-size 0s;
 }
+.em-transition{
+	transition:font-size .25s;
+}
 
 .size-25rem, .xs-up-25rem{
 	font-size:0.25rem;
