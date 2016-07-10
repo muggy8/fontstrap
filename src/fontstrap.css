@@ -3,6 +3,7 @@
 	font-family: inherit;
 	font-weight:inherit;
 	color: inherit;
+	transition:font-size 0.25s;
 }
 html{
 	font-size:20px;
@@ -12,10 +13,9 @@ html{
 }
 
 [class*="-25em"], [class*="-25rem"], [class*="-50em"], [class*="-50rem"], [class*="-75em"], [class*="-75rem"] , [class*="-100em"], [class*="-100rem"], [class*="-125em"], [class*="-125rem"], [class*="-150em"], [class*="-150rem"], [class*="-175em"], [class*="-175rem"], [class*="-200em"], [class*="-200rem"]{
-	transition:font-size 0.25s;
+	transition:font-size .25s;
 }
-
-.em-pass{
+.instant-em-pass *{
 	transition:font-size 0s;
 }
 
