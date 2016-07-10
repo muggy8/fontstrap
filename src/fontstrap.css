@@ -3,13 +3,20 @@
 	font-family: inherit;
 	font-weight:inherit;
 	color: inherit;
-	transition:font-size 0.25s;
 }
 html{
 	font-size:20px;
 	font-family: "Trebuchet MS", Helvetica, sans-serif;
 	-ms-text-size-adjust: 100%;
 	-webkit-text-size-adjust: 100%;
+}
+
+[class*="-25em"], [class*="-25rem"], [class*="-50em"], [class*="-50rem"], [class*="-75em"], [class*="-75rem"] , [class*="-100em"], [class*="-100rem"], [class*="-125em"], [class*="-125rem"], [class*="-150em"], [class*="-150rem"], [class*="-175em"], [class*="-175rem"], [class*="-200em"], [class*="-200rem"]{
+	transition:font-size 0.25s;
+}
+
+.em-pass{
+	transition:font-size 0s;
 }
 
 .size-25rem, .xs-up-25rem{
@@ -458,12 +465,6 @@ html{
 	margin-top:0;
 	margin-bottom:0;
 }
-/*.spacefix{
-	padding-right:0.25em;
-}
-.mono-spacefix{
-	padding-right:0.5em;
-}*/
 .spacefix:after{
 	content: " ";
 }
