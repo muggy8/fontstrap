@@ -15,7 +15,7 @@
  */
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 html {
-  font-family: Tahoma, Geneva, sans-serif;
+  font-family: sans-serif;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   /*text-align:center;*/
@@ -132,7 +132,6 @@ input[type="search"]::-webkit-search-decoration {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  transition: all .25s;
 }
 *:before,
 *:after {
