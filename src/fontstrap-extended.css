@@ -1,0 +1,569 @@
+*{
+	font-size: inherit;
+	font-family: inherit;
+	font-weight:inherit;
+	color: inherit;
+	/*transition:font-size 0.25s;*/
+}
+html{
+	font-size:20px;
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+
+/*
+[class*="-25em"], [class*="-25rem"], [class*="-50em"], [class*="-50rem"], [class*="-75em"], [class*="-75rem"] , [class*="-100em"], [class*="-100rem"], [class*="-125em"], [class*="-125rem"], [class*="-150em"], [class*="-150rem"], [class*="-175em"], [class*="-175rem"], [class*="-200em"], [class*="-200rem"]{
+	transition:font-size .25s;
+}*/
+
+.size-25rem, .xs-up-25rem{
+	font-size:0.25rem;
+}
+.size-50rem, .xs-up-50rem{
+	font-size:0.5rem;
+}
+.size-75rem, .xs-up-75rem{
+	font-size:0.75rem;
+}
+.size-100rem, .xs-up-100rem{
+	font-size:1rem;
+}
+.size-125rem, .xs-up-125rem{
+	font-size:1.25rem;
+}
+.size-150rem, .xs-up-150rem{
+	font-size:1.5rem;
+}
+.size-175rem, .xs-up-175rem{
+	font-size:1.75rem;
+}
+.size-200rem, .xs-up-200rem{
+	font-size:2rem;
+}
+
+.size-25em, .xs-up-25em{
+	font-size:25%;
+	font-size:0.25em;
+}
+.size-50em, .xs-up-50em{
+	font-size:50%;
+	font-size:0.5em;
+}
+.size-75em, .xs-up-75em{
+	font-size:75%;
+	font-size:0.75em;
+}
+.size-100em, .xs-up-100em{
+	font-size:100%;
+	font-size:1em;
+}
+.size-125em, .xs-up-125em{
+	font-size:125%;
+	font-size:1.25em;
+}
+.size-150em, .xs-up-150em{
+	font-size:150%;
+	font-size:1.5em;
+}
+.size-175em, .xs-up-175em{
+	font-size:175%;
+	font-size:1.75em;
+}
+.size-200em, .xs-up-200em{
+	font-size:200%;
+	font-size:2em;
+}
+
+@media (max-width: 767px) { /*less than xs*/
+  .xs-25rem{
+	font-size:0.25rem;
+  }
+  .xs-50rem{
+	font-size:0.5rem;
+  }
+  .xs-75rem{
+	font-size:0.75rem;
+  }
+  .xs-100rem{
+	font-size:1rem;
+  }
+  .xs-125rem{
+	font-size:1.25rem;
+  }
+  .xs-150rem{
+	font-size:1.5rem;
+  }
+  .xs-175rem{
+	font-size:1.75rem;
+  }
+  .xs-200rem{
+	font-size:2rem;
+  }
+  
+  .xs-25em{
+	font-size:25%;
+	font-size:0.25em;
+  }
+  .xs-50em{
+	font-size:50%;
+	font-size:0.5em;
+  }
+  .xs-75em{
+	font-size:75%;
+	font-size:0.75em;
+  }
+  .xs-100em{
+	font-size:100%;
+	font-size:1em;
+  }
+  .xs-125em{
+	font-size:125%;
+	font-size:1.25em;
+  }
+  .xs-150em{
+	font-size:150%;
+	font-size:1.5em;
+  }
+  .xs-175em{
+	font-size:175%;
+	font-size:1.75em;
+  }
+  .xs-200em{
+	font-size:200%;
+	font-size:2em;
+  }
+}
+@media (min-width: 768px) { /*sm and up*/
+  html{
+	font-size:18px;
+  }
+  
+  .sm-up-25rem{
+	font-size:0.25rem;
+  }
+  .sm-up-50rem{
+	font-size:0.5rem;
+  }
+  .sm-up-75rem{
+	font-size:0.75rem;
+  }
+  .sm-up-100rem{
+	font-size:1rem;
+  }
+  .sm-up-125rem{
+	font-size:1.25rem;
+  }
+  .sm-up-150rem{
+	font-size:1.5rem;
+  }
+  .sm-up-175rem{
+	font-size:1.75rem;
+  }
+  .sm-up-200rem{
+	font-size:2rem;
+  }
+  
+  .sm-up-25em{
+	font-size:25%;
+	font-size:0.25em;
+  }
+  .sm-up-50em{
+	font-size:50%;
+	font-size:0.5em;
+  }
+  .sm-up-75em{
+	font-size:75%;
+	font-size:0.75em;
+  }
+  .sm-up-100em{
+	font-size:100%;
+	font-size:1em;
+  }
+  .sm-up-125em{
+	font-size:125%;
+	font-size:1.25em;
+  }
+  .sm-up-150em{
+	font-size:150%;
+	font-size:1.5em;
+  }
+  .sm-up-175em{
+	font-size:175%;
+	font-size:1.75em;
+  }
+  .sm-up-200em{
+	font-size:200%;
+	font-size:2em;
+  }
+
+  @media (max-width: 991px) { /*and less than md*/
+	.sm-25rem{
+		font-size:0.25rem;
+	}
+	.sm-50rem{
+		font-size:0.5rem;
+	}
+	.sm-75rem{
+		font-size:0.75rem;
+	}
+	.sm-100rem{
+		font-size:1rem;
+	}
+	.sm-125rem{
+		font-size:1.25rem;
+	}
+	.sm-150rem{
+		font-size:1.5rem;
+	}
+	.sm-175rem{
+		font-size:1.75rem;
+	}
+	.sm-200rem{
+		font-size:2rem;
+	}
+	
+	.sm-25em{
+		font-size:25%;
+		font-size:0.25em;
+	}
+	.sm-50em{
+		font-size:50%;
+		font-size:0.5em;
+	}
+	.sm-75em{
+		font-size:75%;
+		font-size:0.75em;
+	}
+	.sm-100em{
+		font-size:100%;
+		font-size:1em;
+	}
+	.sm-125em{
+		font-size:125%;
+		font-size:1.25em;
+	}
+	.sm-150em{
+		font-size:150%;
+		font-size:1.5em;
+	}
+	.sm-175em{
+		font-size:175%;
+		font-size:1.75em;
+	}
+	.sm-200em{
+		font-size:200%;
+		font-size:2em;
+	}
+  }
+}
+@media (min-width: 992px) { /*md and up*/
+  html{
+	font-size:16px;
+  }
+  .md-up-25rem{
+	font-size:0.25rem;
+  }
+  .md-up-50rem{
+	font-size:0.5rem;
+  }
+  .md-up-75rem{
+	font-size:0.75rem;
+  }
+  .md-up-100rem{
+	font-size:1rem;
+  }
+  .md-up-125rem{
+	font-size:1.25rem;
+  }
+  .md-up-150rem{
+	font-size:1.5rem;
+  }
+  .md-up-175rem{
+	font-size:1.75rem;
+  }
+  .md-up-200rem{
+	font-size:2rem;
+  }
+  
+  .md-up-25em{
+	font-size:25%;
+	font-size:0.25em;
+  }
+  .md-up-50em{
+	font-size:50%;
+	font-size:0.5em;
+  }
+  .md-up-75em{
+	font-size:75%;
+	font-size:0.75em;
+  }
+  .md-up-100em{
+	font-size:100%;
+	font-size:1em;
+  }
+  .md-up-125em{
+	font-size:125%;
+	font-size:1.25em;
+  }
+  .md-up-150em{
+	font-size:150%;
+	font-size:1.5em;
+  }
+  .md-up-175em{
+	font-size:175%
+	font-size:1.75em;;
+  }
+  .md-up-200em{
+	font-size:200%;
+	font-size:2em;
+  }
+  
+  @media (max-width: 1199px) { /*and less than lg*/
+	.md-25rem{
+		font-size:0.25rem;
+	}
+	.md-50rem{
+		font-size:0.5rem;
+	}
+	.md-75rem{
+		font-size:0.75rem;
+	}
+	.md-100rem{
+		font-size:1rem;
+	}
+	.md-125rem{
+		font-size:1.25rem;
+	}
+	.md-150rem{
+		font-size:1.5rem;
+	}
+	.md-175rem{
+		font-size:1.75rem;
+	}
+	.md-200rem{
+		font-size:2rem;
+	}
+	
+	.md-25em{
+		font-size:25%;
+		font-size:0.25em;
+	}
+	.md-50em{
+		font-size:50%;
+		font-size:0.5em;
+	}
+	.md-75em{
+		font-size:75%;
+		font-size:0.75em;
+	}
+	.md-100em{
+		font-size:100%;
+		font-size:1em;
+	}
+	.md-125em{
+		font-size:125%;
+		font-size:1.25em;
+	}
+	.md-150em{
+		font-size:150%;
+		font-size:1.5em;
+	}
+	.md-175em{
+		font-size:175%;
+		font-size:1.75em;
+	}
+	.md-200em{
+		font-size:200%;
+		font-size:2em;
+	}
+  }
+}
+@media (min-width: 1200px) { /*lg and up*/
+  html{
+	font-size:14px;
+  }  
+  .lg-25rem, .lg-up-25rem{
+	font-size:0.25rem;
+  }
+  .lg-50rem, .lg-up-50rem{
+	font-size:0.5rem;
+  }
+  .lg-75rem, .lg-up-75rem{
+	font-size:0.75rem;
+  }
+  .lg-100rem, .lg-up-100rem{
+	font-size:1rem;
+  }
+  .lg-125rem, .lg-up-125rem{
+	font-size:1.25rem;
+  }
+  .lg-150rem, .lg-up-150rem{
+	font-size:1.5rem;
+  }
+  .lg-175rem, .lg-up-175rem{
+	font-size:1.75rem;
+  }
+  .lg-200rem, .lg-up-200rem{
+	font-size:2rem;
+  }
+  
+  .lg-25em, .lg-up-25em{
+	font-size:25%;
+	font-size:0.25em;
+  }
+  .lg-50em, .lg-up-50em{
+	font-size:50%;
+	font-size:0.5em;
+  }
+  .lg-75em, .lg-up-75em{
+	font-size:75%;
+	font-size:0.75em;
+  }
+  .lg-100em, .lg-up-100em{
+	font-size:100%;
+	font-size:1em;
+  }
+  .lg-125em, .lg-up-125em{
+	font-size:125%;
+	font-size:1.25em;
+  }
+  .lg-150em, .lg-up-150em{
+	font-size:150%;
+	font-size:1.5em;
+  }
+  .lg-175em, .lg-up-175em{
+	font-size:175%;
+	font-size:1.75em;
+  }
+  .lg-200em, .lg-up-200em {
+	font-size:200%;
+	font-size:2em;
+  }
+}
+
+.padless{
+	padding:0;
+}
+.pad-25em{
+	padding:.25em;
+}
+.pad-25rem{
+	padding:.25rem;
+}
+.pad-50em{
+	padding:.5em;
+}
+.pad-50rem{
+	padding:.5rem;
+}
+.pad-75em{
+	padding:.75em;
+}
+.pad-75rem{
+	padding:.75rem;
+}
+.pad-100em{
+	padding:1em;
+}
+.pad-100rem{
+	padding:1rem;
+}
+.pad-125em{
+	padding:1.25em;
+}
+.pad-125rem{
+	padding:1.25rem;
+}
+.pad-150em{
+	padding:1.5em;
+}
+.pad-150rem{
+	padding:1.5rem;
+}
+.pad-175em{
+	padding:1.75em;
+}
+.pad-175rem{
+	padding:1.75rem;
+}
+.pad-200em{
+	padding:2em;
+}
+.pad-200rem{
+	padding:2rem;
+}
+.padless-horiz{
+	padding-right:0;
+	padding-left:0;
+}
+.padless-vit{
+	padding-top:0;
+	padding-bottom:0;
+}
+
+.marginless{
+	margin:0;
+}
+.marg-25em{
+	margin:.25em;
+}
+.marg-25rem{
+	margin:.25rem;
+}
+.marg-50em{
+	margin:.5em;
+}
+.marg-50rem{
+	margin:.5rem;
+}
+.marg-75em{
+	margin:.75em;
+}
+.marg-75rem{
+	margin:.75rem;
+}
+.marg-100em{
+	margin:1em;
+}
+.marg-100rem{
+	margin:1rem;
+}
+.marg-125em{
+	margin:1.25em;
+}
+.marg-125rem{
+	margin:1.25rem;
+}
+.marg-150em{
+	margin:1.5em;
+}
+.marg-150rem{
+	margin:1.5rem;
+}
+.marg-175em{
+	margin:1.75em;
+}
+.marg-175rem{
+	margin:1.75rem;
+}
+.marg-200em{
+	margin:2em;
+}
+.marg-200rem{
+	margin:2rem;
+}
+.marginless-horiz{
+	margin-right:0;
+	margin-left:0;
+}
+.marginless-virt{
+	margin-top:0;
+	margin-bottom:0;
+}
+
+.spacefix:after{
+	content: " ";
+}
+.clear-both{
+	clear:both;
+}
