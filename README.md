@@ -10,8 +10,12 @@ Fontstrap is a bootstrap plugin(?) that lets you adjust your font size. There's 
 
 <p>the numbers that are supported right now is 25, 50, 75, 100, 125, 150, 172, 200 which I feel is plenty to get you started. You are free to modify them as you wish.</p>
 
-<h3>Additional stuff?</h3>
-<p>There really isn't much here. paddless, marginless, padless-horiz, paddless-virt, marginless-horiz, marginless-virt which pretty much does exactly what it sounds like, The last useful thing I added is that when you have a bunch of spans lined up, some of them lose their spacing, so there's a class called spacefix which adds padding equivilant to 0.25em (the size of a space normally) to the right of the span (mono-spacefix for monospace fonts). </p>
+<h3>Additional stuff? (fontstrap-extended.css)</h3>
+<p>Probably the most useful part of having adjustable font sizes is that you can adjust other parts of your site responsively wihtout adjusting the CSS rules. The first of this to get added is padding and margin (though padding is likely to be used more). The added classes are: pad-#em, pad-#rem, marg-#em and marg-#rem where number is again, 25 to 200 incrementing in 25s. The intended usage of the padding commands are like this: </p>
+<p>class="size-100em sm-75em lg-75em pad-150em padless-horiz"</p>
+<p>After You completely messed up your em based heiarchy for your spacing needs, remember you can always redefine a new heiarchy somewhere down the line later with rem calls. As an example. if the above class belong to a section tag that contained some divs, you can then declare the following in the div tag for the rest of the stuff</p>
+<p>class="size-100rem"</p>
+<p>I understand that not everyone cares about controlling padding / margin and just want the font size adjustments and as a result, I have decided to split the code and added a second fontstrap css file into the src folder. If you want the addtional stuff grab the extended version if you just want basic font size control and really care about load times, then grab the non-extended version.</p>
 <p>I have a custom cut of bootstrap that I like to use since it's increadibly small and has the most important bits (the grid) and that's about it. I usually just combine my custom cut of bootstrap and fontstrap in PHP and inline both bootstrap and fontstrap into my sites as part of the critical core css. You can feel free to do the same.</p>
 
 <h3>Other Defaults</h3>
