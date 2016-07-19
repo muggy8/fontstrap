@@ -182,8 +182,20 @@
 	padding-right:0;
 	padding-left:0;
 }
-.padless-vit{
+.padless-right{
+	padding-right:0;
+}
+.padless-left{
+	padding-left:0;
+}
+.padless-virt{
 	padding-top:0;
+	padding-bottom:0;
+}
+.padless-top{
+	padding-top:0;
+}
+.padless-bot{
 	padding-bottom:0;
 }
 
@@ -370,9 +382,23 @@
 	margin-right:0;
 	margin-left:0;
 }
+.marginless-left{
+	margin-left:0;
+}
+.marginless-right{
+	margin-right:0;
+}
 .marginless-virt{
 	margin-top:0;
 	margin-bottom:0;
+}
+
+.marginless-top{
+	margin-top:0;
+}
+
+.marginless-bot{
+	margin-top:0;
 }
 
 /*controlling letter space*/
