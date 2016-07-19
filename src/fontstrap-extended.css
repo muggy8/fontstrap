@@ -492,6 +492,134 @@ html{
 .pad-200rem{
 	padding:2rem;
 }
+.pad-horiz-25em{
+	padding-left:.25em;
+	padding-right:.25em;
+}
+.pad-horiz-25rem{
+	padding-left:.25rem;
+	padding-right:.25rem;
+}
+.pad-horiz-50em{
+	padding-left:.5em;
+	padding-right:.5em;
+}
+.pad-horiz-50rem{
+	padding-left:.5rem;
+	padding-right:.5rem;
+}
+.pad-horiz-75em{
+	padding-left:.75em;
+	padding-right:.75em;
+}
+.pad-horiz-75rem{
+	padding-left:.75rem;
+	padding-right:.75rem;
+}
+.pad-horiz-100em{
+	padding-left:1em;
+	padding-right:1em;
+}
+.pad-horiz-100rem{
+	padding-left:1rem;
+	padding-right:1rem;
+}
+.pad-horiz-125em{
+	padding-left:1.25em;
+	padding-right:1.25em;
+}
+.pad-horiz-125rem{
+	padding-left:1.25rem;
+	padding-right:1.25rem;
+}
+.pad-horiz-150em{
+	padding-left:1.5em;
+	padding-right:1.5em;
+}
+.pad-horiz-150rem{
+	padding-left:1.5rem;
+	padding-right:1.5rem;
+}
+.pad-horiz-175em{
+	padding-left:1.75em;
+	padding-right:1.75em;
+}
+.pad-horiz-175rem{
+	padding-left:1.75rem;
+	padding-right:1.75rem;
+}
+.pad-horiz-200em{
+	padding-left:2em;
+	padding-right:2em;
+}
+.pad-horiz-200rem{
+	padding-left:2rem;
+	padding-right:2rem;
+}
+.pad-virt-25em{
+	padding:.25em;
+	padding:.25em;
+}
+.pad-virt-25rem{
+	padding:.25rem;
+	padding:.25rem;
+}
+.pad-virt-50em{
+	padding:.5em;
+	padding:.5em;
+}
+.pad-virt-50rem{
+	padding:.5rem;
+	padding:.5rem;
+}
+.pad-virt-75em{
+	padding:.75em;
+	padding:.75em;
+}
+.pad-virt-75rem{
+	padding:.75rem;
+	padding:.75rem;
+}
+.pad-virt-100em{
+	padding:1em;
+	padding:1em;
+}
+.pad-virt-100rem{
+	padding:1rem;
+	padding:1rem;
+}
+.pad-virt-125em{
+	padding:1.25em;
+	padding:1.25em;
+}
+.pad-virt-125rem{
+	padding:1.25rem;
+	padding:1.25rem;
+}
+.pad-virt-150em{
+	padding:1.5em;
+	padding:1.5em;
+}
+.pad-virt-150rem{
+	padding:1.5rem;
+	padding:1.5rem;
+}
+.pad-virt-175em{
+	padding:1.75em;
+	padding:1.75em;
+}
+.pad-virt-175rem{
+	padding:1.75rem;
+	padding:1.75rem;
+}
+.pad-virt-200em{
+	padding:2em;
+	padding:2em;
+}
+.pad-virt-200rem{
+	padding:2rem;
+	padding:2rem;
+}
 .padless-horiz{
 	padding-right:0;
 	padding-left:0;
