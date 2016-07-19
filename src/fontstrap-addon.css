@@ -405,6 +405,18 @@
 .lspace-0{
 	letter-spacing:initial;
 }
+.lspace-5em{
+	letter-spacing:0.05em;
+}
+.lspace-10em{
+	letter-spacing:0.1em;
+}
+.lspace-15em{
+	letter-spacing:0.15em;
+}
+.lspace-20em{
+	letter-spacing:0.2em;
+}
 .lspace-25em{
 	letter-spacing:0.25em;
 }
@@ -428,6 +440,18 @@
 }
 .lspace-200em{
 	letter-spacing:2em;
+}
+.lspace-5rem{
+	letter-spacing:0.05rem;
+}
+.lspace-10rem{
+	letter-spacing:0.1rem;
+}
+.lspace-15rem{
+	letter-spacing:0.15rem;
+}
+.lspace-20rem{
+	letter-spacing:0.2rem;
 }
 .lspace-25rem{
 	letter-spacing:0.25rem;
