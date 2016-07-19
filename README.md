@@ -1,5 +1,5 @@
 # About Fontstrap
-Fontstrap is a bootstrap plugin(?) that lets you adjust your font size. There's literally nothing else in here other than a few extra auxiliary functions.
+Fontstrap is a bootstrap plugin(?) that lets you adjust your font size. It is intended to be just that with literally nothing else but I think being able to fully control font-size responsively is just too powerful to not make use of elsewhere. After all em-units are really great for just about everything.
 
 <h2>Documentations</h2>
 <h3>How to use:</h3>
