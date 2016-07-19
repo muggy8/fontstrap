@@ -429,30 +429,30 @@
 }
 
 /*adjust font weight... weight-# or font-<xlight, light, normal, bold, xbold>*/
-.weight-100{
+.weight-100, .font-100{
 	font-weight: 100;
 }
-.weight-200, .font-xlight{
+.weight-200, .font-200, .font-xlight{
 	font-weight: 200;
 }
-.weight-300, .font-light{
+.weight-300, .font-300, .font-light{
 	font-weight: 300;
 }
-.weight-400, .font-normal{
+.weight-400, .font-400, .font-normal{
 	font-weight: 400;
 }
-.weight-500{
+.weight-500, .font-500{
 	font-weight: 500;
 }
-.weight-600{
+.weight-600, .font-600{
 	font-weight: 600;
 }
-.weight-700, .font-bold{
+.weight-700, .font-700, .font-bold{
 	font-weight: 700;
 }
-.weight-800{
+.weight-800, .font-800{
 	font-weight: 800;
 }
-.weight-900, .font-xbold{
+.weight-900, .font-900, .font-xbold{
 	font-weight: 900;
 }
