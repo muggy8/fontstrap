@@ -2,6 +2,8 @@
 	font-size: inherit;
 	font-family: inherit;
 	font-weight:inherit;
+	line-height: inherit;
+	letter-spacing:inherit;
 	color: inherit;
 	/*transition:font-size 0.25s;*/
 }
