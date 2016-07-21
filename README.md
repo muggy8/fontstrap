@@ -21,13 +21,43 @@ Fontstrap is a bootstrap plugin(?) that lets you adjust your font size. It is in
 <p>You would not need to write custome media queries for your image-wrapper class as it's padding will resize responsively based on the font size. of your element. In conjunction with bootstrap, this lets you easily make minor adjustments to your layout. Where bootstrap lets you adjust large things like grids, fontstrap will let you adjust the smaller minor details. Happy adjusting!</p>
 
 <h3>fontstrap-extended.css?</h3>
-<p>Probably the most useful part of having adjustable font sizes is that you can adjust other parts of your site responsively wihtout adjusting the CSS rules. The first of this to get added is padding and margin (though padding is likely to be used more). The added classes are: pad-#em, pad-#rem, marg-#em and marg-#rem, pad-horiz-#em, pad-horiz-#rem, marg-horiz-#em and marg-horiz-#rem, pad-virt-#em, pad-virt-#rem, marg-virt-#em and marg-virt-#rem where number is again, 25 to 200 incrementing in 25s. The intended usage of the padding commands are like this: </p>
-<p>class="size-100em sm-75em lg-75em pad-150em padless-horiz"</p>
-<p>class="size-100em sm-75em lg-75em pad-virt-150em pad-horiz-75em marg-virt-75em"</p>
-<p>After You completely messed up your em based heiarchy for your spacing needs, remember you can always redefine a new heiarchy somewhere down the line later with rem calls. As an example. if the above class belong to a section tag that contained some divs, you can then declare the following in the div tag for the rest of the stuff</p>
-<p>class="size-100rem"</p>
-<p>I understand that not everyone cares about controlling padding / margin and just want the font size adjustments and as a result, I have decided to split the code and added a second fontstrap css file into the src folder. If you want the addtional stuff grab the extended version if you just want basic font size control and really care about load times, then grab the non-extended version.</p>
-<p>I have a custom cut of bootstrap that I like to use since it's increadibly small and has the most important bits (the grid) and that's about it. I usually just combine my custom cut of bootstrap and fontstrap in PHP and inline both bootstrap and fontstrap into my sites as part of the critical core css. You can feel free to do the same.</p>
+<p>If you want to have some predefined classes for making these small adjustments then that's wehre fontstrap-extended comes in. The default fonstrap will only carry with it responsive font sizes. In the extended CSS you'll find a number of other tools at your disposal. such as adjusting margin and padding as well as letter space and so on. Here's a list of the classes that are defined and an example of how to get some desired effects. You are often better off just declareing custome classes in most of these cases unless stated otherwise numbers that are supported are: 25/50/75/100/125/150/175/200</p>
+<ul>
+	<li>pad-#em</li>
+	<li>pad-#rem</li>
+	<li>pad-virt-#em</li>
+	<li>pad-horiz-#rem</li>
+	<li>padless</li>
+	<li>padless-virt</li>
+	<li>padless-horiz</li>
+	<li>padless-right</li>
+	<li>padless-left</li>
+	<li>padless-top</li>
+	<li>padless-bottom</li>
+	<li>marg-#em</li>
+	<li>marg-#rem</li>
+	<li>marg-virt-#em</li>
+	<li>marg-horiz-#rem</li>
+	<li>marginless</li>
+	<li>marginless-virt</li>
+	<li>marginless-horiz</li>
+	<li>marginless-right</li>
+	<li>marginless-left</li>
+	<li>marginless-top</li>
+	<li>marginless-bottom</li>
+	<li>lspace-0</li>
+	<li>lspace-#em (letter spacing | additional numbers: 5/10/15/20)</li>
+	<li>lspace-#rem (letter spacing | additional numbers: 5/10/15/20)</li>
+	<li>weight-# (supported numbers: 100/200/300/400/500/600/700/800/900)</li>
+	<li>font-# (supported numbers: 100/200/300/400/500/600/700/800/900)</li>
+	<li>font-X (supported words: xlight/light,normal/bold/xbold)</li>
+</ul>
+
+<p>If you're using this, your HTML is gonna get really cluttered and would probably defeat the purpose of this framework. If you are just prototyping and would like easily adjustable things than ya maybe this is not that bad. Here's how you'd achieve some common desired results:</p>
+
+<p>padding-left: 1 em -> pad-horiz-1em padless-right</p>
+
+so for your own sake, just declare an extrac class. 
 
 <h3>Other Defaults</h3>
 <p>Font sizes base are xs:20px, sm:18px, md:16px, lg:14px. These are the default font sizes but if you dont like them feel free to change them </p>
