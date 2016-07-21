@@ -8,7 +8,7 @@ Fontstrap is a bootstrap plugin(?) that lets you adjust your font size. It is in
 <p>the scale-units have 2 parts, for example md-125em would make the font size only 1.25em when the screen fits the condition for md (see bootstrap) if you want the font size to be applied to all fonts and up like bootstrap use something like class="md-up-125em" of courese if you can chain them together like in bootstrap.</p>
 <p>eg: class="col-xs-12 col-md-3 xs-200em sm-175em md-up-100em"</p>
 
-<p>the numbers that are supported right now is 25, 50, 75, 100, 125, 150, 172, 200 which I feel is plenty to get you started. You are free to modify them as you wish.</p>
+<p>the numbers that are supported right now is 25, 50, 75, 100, 125, 150, 172, 200 which I feel is plenty to get you started. You are free to modify them as you wish. The base fontstrap.css is inline ready and is relatively small. You can safely inline it into your base HTML if you're into that kind of things, the rest of the addon is a bit large and you probably want to load that after the fold aka link it in the footer or something (if you're using it at all). </p>
 
 <h2>Additional uses for fonts</h2>
 <p>font sizes can be used as a unit in CSS via <a href="http://zellwk.com/blog/rem-vs-em/">em and rem.</a> so if you try something like this: </p>
@@ -20,8 +20,8 @@ Fontstrap is a bootstrap plugin(?) that lets you adjust your font size. It is in
 
 <p>You would not need to write custome media queries for your image-wrapper class as it's padding will resize responsively based on the font size. of your element. In conjunction with bootstrap, this lets you easily make minor adjustments to your layout. Where bootstrap lets you adjust large things like grids, fontstrap will let you adjust the smaller minor details. Happy adjusting!</p>
 
-<h3>fontstrap-extended.css?</h3>
-<p>If you want to have some predefined classes for making these small adjustments then that's wehre fontstrap-extended comes in. The default fonstrap will only carry with it responsive font sizes. In the extended CSS you'll find a number of other tools at your disposal. such as adjusting margin and padding as well as letter space and so on. Here's a list of the classes that are defined and an example of how to get some desired effects. You are often better off just declareing custome classes in most of these cases unless stated otherwise numbers that are supported are: 25/50/75/100/125/150/175/200</p>
+<h3>fontstrap-addon.css?</h3>
+<p>If you want to have some predefined classes for making these small adjustments then that's wehre fontstrap-addon comes in. The default fonstrap will only carry with it responsive font sizes. In the addon CSS you'll find a number of other tools at your disposal. such as adjusting margin and padding as well as letter space and so on. Here's a list of the classes that are defined and an example of how to get some desired effects. You are often better off just declareing custome classes in most of these cases unless stated otherwise numbers that are supported are: 25/50/75/100/125/150/175/200</p>
 <ul>
 	<li>pad-#em</li>
 	<li>pad-#rem</li>
@@ -57,7 +57,7 @@ Fontstrap is a bootstrap plugin(?) that lets you adjust your font size. It is in
 
 <p>padding-left: 1 em -> pad-horiz-1em padless-right</p>
 
-so for your own sake, just declare an extrac class. 
+<p>so for your own sake, if you're messing with margins and paddings, just declare an extra class. As for the other classes, it's up to you what you want to do with them. They seem kind of useful but I haven't played around with them enough to say for sure.</p>
 
 <h3>Other Defaults</h3>
 <p>Font sizes base are xs:20px, sm:18px, md:16px, lg:14px. These are the default font sizes but if you dont like them feel free to change them </p>
