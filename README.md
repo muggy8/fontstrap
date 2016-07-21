@@ -10,7 +10,17 @@ Fontstrap is a bootstrap plugin(?) that lets you adjust your font size. It is in
 
 <p>the numbers that are supported right now is 25, 50, 75, 100, 125, 150, 172, 200 which I feel is plenty to get you started. You are free to modify them as you wish.</p>
 
-<h3>Additional stuff? (fontstrap-extended.css)</h3>
+<h2>Additional uses for fonts</h2>
+<p>font sizes can be used as a unit in CSS via <a href="http://zellwk.com/blog/rem-vs-em/">em and rem.</a> so if you try something like this: </p>
+
+...
+&lt;style&gt;image-wrapper{padding:1em}&lt;/style&gt;
+&lt;span class=&quot;image-wrapper size-75em md-up-50em&quot;&gt;&lt;img src=&quot;some-image.png&quot;&gt;&lt;/span&gt;
+...
+
+<p>You would not need to write custome media queries for your image-wrapper class as it's padding will resize responsively based on the font size. of your element. In conjunction with bootstrap, this lets you easily make minor adjustments to your layout. Where bootstrap lets you adjust large things like grids, fontstrap will let you adjust the smaller minor details. Happy adjusting!</p>
+
+<h3>fontstrap-extended.css?</h3>
 <p>Probably the most useful part of having adjustable font sizes is that you can adjust other parts of your site responsively wihtout adjusting the CSS rules. The first of this to get added is padding and margin (though padding is likely to be used more). The added classes are: pad-#em, pad-#rem, marg-#em and marg-#rem, pad-horiz-#em, pad-horiz-#rem, marg-horiz-#em and marg-horiz-#rem, pad-virt-#em, pad-virt-#rem, marg-virt-#em and marg-virt-#rem where number is again, 25 to 200 incrementing in 25s. The intended usage of the padding commands are like this: </p>
 <p>class="size-100em sm-75em lg-75em pad-150em padless-horiz"</p>
 <p>class="size-100em sm-75em lg-75em pad-virt-150em pad-horiz-75em marg-virt-75em"</p>
