@@ -444,31 +444,6 @@ section, main{
 	font-size:2em;
   }
 }
-.padless{
-	padding:0;
-}
-.padless-horiz{
-	padding-right:0;
-	padding-left:0;
-}
-.padless-vit{
-	padding-top:0;
-	padding-bottom:0;
-}
-.marginless{
-	margin:0;
-}
-.marginless-horiz{
-	margin-right:0;
-	margin-left:0;
-}
-.marginless-virt{
-	margin-top:0;
-	margin-bottom:0;
-}
 .spacefix:after{
 	content: " ";
-}
-.clear-both{
-	clear:both;
 }
