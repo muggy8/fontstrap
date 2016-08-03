@@ -20,119 +20,119 @@ section, main{
 	transition:font-size .25s;
 }*/
 
-.size-25rem, .xs-up-25rem{
+.font-25rem, .font-xs-up-25rem{
 	font-size:0.25rem;
 }
-.size-50rem, .xs-up-50rem{
+.font-50rem, .font-xs-up-50rem{
 	font-size:0.5rem;
 }
-.size-75rem, .xs-up-75rem{
+.font-75rem, .font-xs-up-75rem{
 	font-size:0.75rem;
 }
-.size-100rem, .xs-up-100rem{
+.font-100rem, .font-xs-up-100rem{
 	font-size:1rem;
 }
-.size-125rem, .xs-up-125rem{
+.font-125rem, .font-xs-up-125rem{
 	font-size:1.25rem;
 }
-.size-150rem, .xs-up-150rem{
+.font-150rem, .font-xs-up-150rem{
 	font-size:1.5rem;
 }
-.size-175rem, .xs-up-175rem{
+.font-175rem, .font-xs-up-175rem{
 	font-size:1.75rem;
 }
-.size-200rem, .xs-up-200rem{
+.font-200rem, .font-xs-up-200rem{
 	font-size:2rem;
 }
 
-.size-25em, .xs-up-25em{
+.font-25em, .font-xs-up-25em{
 	font-size:25%;
 	font-size:0.25em;
 }
-.size-50em, .xs-up-50em{
+.font-50em, .font-xs-up-50em{
 	font-size:50%;
 	font-size:0.5em;
 }
-.size-75em, .xs-up-75em{
+.font-75em, .font-xs-up-75em{
 	font-size:75%;
 	font-size:0.75em;
 }
-.size-100em, .xs-up-100em{
+.font-100em, .font-xs-up-100em{
 	font-size:100%;
 	font-size:1em;
 }
-.size-125em, .xs-up-125em{
+.font-125em, .font-xs-up-125em{
 	font-size:125%;
 	font-size:1.25em;
 }
-.size-150em, .xs-up-150em{
+.font-150em, .font-xs-up-150em{
 	font-size:150%;
 	font-size:1.5em;
 }
-.size-175em, .xs-up-175em{
+.font-175em, .font-xs-up-175em{
 	font-size:175%;
 	font-size:1.75em;
 }
-.size-200em, .xs-up-200em{
+.font-200em, .font-xs-up-200em{
 	font-size:200%;
 	font-size:2em;
 }
 
 @media (max-width: 767px) { /*less than xs*/
-  .xs-25rem{
+  .font-xs-25rem{
 	font-size:0.25rem;
   }
-  .xs-50rem{
+  .font-xs-50rem{
 	font-size:0.5rem;
   }
-  .xs-75rem{
+  .font-xs-75rem{
 	font-size:0.75rem;
   }
-  .xs-100rem{
+  .font-xs-100rem{
 	font-size:1rem;
   }
-  .xs-125rem{
+  .font-xs-125rem{
 	font-size:1.25rem;
   }
-  .xs-150rem{
+  .font-xs-150rem{
 	font-size:1.5rem;
   }
-  .xs-175rem{
+  .font-xs-175rem{
 	font-size:1.75rem;
   }
-  .xs-200rem{
+  .font-xs-200rem{
 	font-size:2rem;
   }
   
-  .xs-25em{
+  .font-xs-25em{
 	font-size:25%;
 	font-size:0.25em;
   }
-  .xs-50em{
+  .font-xs-50em{
 	font-size:50%;
 	font-size:0.5em;
   }
-  .xs-75em{
+  .font-xs-75em{
 	font-size:75%;
 	font-size:0.75em;
   }
-  .xs-100em{
+  .font-xs-100em{
 	font-size:100%;
 	font-size:1em;
   }
-  .xs-125em{
+  .font-xs-125em{
 	font-size:125%;
 	font-size:1.25em;
   }
-  .xs-150em{
+  .font-xs-150em{
 	font-size:150%;
 	font-size:1.5em;
   }
-  .xs-175em{
+  .font-xs-175em{
 	font-size:175%;
 	font-size:1.75em;
   }
-  .xs-200em{
+  .font-xs-200em{
 	font-size:200%;
 	font-size:2em;
   }
@@ -142,119 +142,119 @@ section, main{
 	font-size:18px;
   }
   
-  .sm-up-25rem{
+  .font-sm-up-25rem{
 	font-size:0.25rem;
   }
-  .sm-up-50rem{
+  .font-sm-up-50rem{
 	font-size:0.5rem;
   }
-  .sm-up-75rem{
+  .font-sm-up-75rem{
 	font-size:0.75rem;
   }
-  .sm-up-100rem{
+  .font-sm-up-100rem{
 	font-size:1rem;
   }
-  .sm-up-125rem{
+  .font-sm-up-125rem{
 	font-size:1.25rem;
   }
-  .sm-up-150rem{
+  .font-sm-up-150rem{
 	font-size:1.5rem;
   }
-  .sm-up-175rem{
+  .font-sm-up-175rem{
 	font-size:1.75rem;
   }
-  .sm-up-200rem{
+  .font-sm-up-200rem{
 	font-size:2rem;
   }
   
-  .sm-up-25em{
+  .font-sm-up-25em{
 	font-size:25%;
 	font-size:0.25em;
   }
-  .sm-up-50em{
+  .font-sm-up-50em{
 	font-size:50%;
 	font-size:0.5em;
   }
-  .sm-up-75em{
+  .font-sm-up-75em{
 	font-size:75%;
 	font-size:0.75em;
   }
-  .sm-up-100em{
+  .font-sm-up-100em{
 	font-size:100%;
 	font-size:1em;
   }
-  .sm-up-125em{
+  .font-sm-up-125em{
 	font-size:125%;
 	font-size:1.25em;
   }
-  .sm-up-150em{
+  .font-sm-up-150em{
 	font-size:150%;
 	font-size:1.5em;
   }
-  .sm-up-175em{
+  .font-sm-up-175em{
 	font-size:175%;
 	font-size:1.75em;
   }
-  .sm-up-200em{
+  .font-sm-up-200em{
 	font-size:200%;
 	font-size:2em;
   }
 
   @media (max-width: 991px) { /*and less than md*/
-	.sm-25rem{
+	.font-sm-25rem{
 		font-size:0.25rem;
 	}
-	.sm-50rem{
+	.font-sm-50rem{
 		font-size:0.5rem;
 	}
-	.sm-75rem{
+	.font-sm-75rem{
 		font-size:0.75rem;
 	}
-	.sm-100rem{
+	.font-sm-100rem{
 		font-size:1rem;
 	}
-	.sm-125rem{
+	.font-sm-125rem{
 		font-size:1.25rem;
 	}
-	.sm-150rem{
+	.font-sm-150rem{
 		font-size:1.5rem;
 	}
-	.sm-175rem{
+	.font-sm-175rem{
 		font-size:1.75rem;
 	}
-	.sm-200rem{
+	.font-sm-200rem{
 		font-size:2rem;
 	}
 	
-	.sm-25em{
+	.font-sm-25em{
 		font-size:25%;
 		font-size:0.25em;
 	}
-	.sm-50em{
+	.font-sm-50em{
 		font-size:50%;
 		font-size:0.5em;
 	}
-	.sm-75em{
+	.font-sm-75em{
 		font-size:75%;
 		font-size:0.75em;
 	}
-	.sm-100em{
+	.font-sm-100em{
 		font-size:100%;
 		font-size:1em;
 	}
-	.sm-125em{
+	.font-sm-125em{
 		font-size:125%;
 		font-size:1.25em;
 	}
-	.sm-150em{
+	.font-sm-150em{
 		font-size:150%;
 		font-size:1.5em;
 	}
-	.sm-175em{
+	.font-sm-175em{
 		font-size:175%;
 		font-size:1.75em;
 	}
-	.sm-200em{
+	.font-sm-200em{
 		font-size:200%;
 		font-size:2em;
 	}
@@ -264,119 +264,119 @@ section, main{
   html{
 	font-size:16px;
   }
-  .md-up-25rem{
+  .font-md-up-25rem{
 	font-size:0.25rem;
   }
-  .md-up-50rem{
+  .font-md-up-50rem{
 	font-size:0.5rem;
   }
-  .md-up-75rem{
+  .font-md-up-75rem{
 	font-size:0.75rem;
   }
-  .md-up-100rem{
+  .font-md-up-100rem{
 	font-size:1rem;
   }
-  .md-up-125rem{
+  .font-md-up-125rem{
 	font-size:1.25rem;
   }
-  .md-up-150rem{
+  .font-md-up-150rem{
 	font-size:1.5rem;
   }
-  .md-up-175rem{
+  .font-md-up-175rem{
 	font-size:1.75rem;
   }
-  .md-up-200rem{
+  .font-md-up-200rem{
 	font-size:2rem;
   }
   
-  .md-up-25em{
+  .font-md-up-25em{
 	font-size:25%;
 	font-size:0.25em;
   }
-  .md-up-50em{
+  .font-md-up-50em{
 	font-size:50%;
 	font-size:0.5em;
   }
-  .md-up-75em{
+  .font-md-up-75em{
 	font-size:75%;
 	font-size:0.75em;
   }
-  .md-up-100em{
+  .font-md-up-100em{
 	font-size:100%;
 	font-size:1em;
   }
-  .md-up-125em{
+  .font-md-up-125em{
 	font-size:125%;
 	font-size:1.25em;
   }
-  .md-up-150em{
+  .font-md-up-150em{
 	font-size:150%;
 	font-size:1.5em;
   }
-  .md-up-175em{
+  .font-md-up-175em{
 	font-size:175%
 	font-size:1.75em;;
   }
-  .md-up-200em{
+  .font-md-up-200em{
 	font-size:200%;
 	font-size:2em;
   }
   
   @media (max-width: 1199px) { /*and less than lg*/
-	.md-25rem{
+	.font-md-25rem{
 		font-size:0.25rem;
 	}
-	.md-50rem{
+	.font-md-50rem{
 		font-size:0.5rem;
 	}
-	.md-75rem{
+	.font-md-75rem{
 		font-size:0.75rem;
 	}
-	.md-100rem{
+	.font-md-100rem{
 		font-size:1rem;
 	}
-	.md-125rem{
+	.font-md-125rem{
 		font-size:1.25rem;
 	}
-	.md-150rem{
+	.font-md-150rem{
 		font-size:1.5rem;
 	}
-	.md-175rem{
+	.font-md-175rem{
 		font-size:1.75rem;
 	}
-	.md-200rem{
+	.font-md-200rem{
 		font-size:2rem;
 	}
 	
-	.md-25em{
+	.font-md-25em{
 		font-size:25%;
 		font-size:0.25em;
 	}
-	.md-50em{
+	.font-md-50em{
 		font-size:50%;
 		font-size:0.5em;
 	}
-	.md-75em{
+	.font-md-75em{
 		font-size:75%;
 		font-size:0.75em;
 	}
-	.md-100em{
+	.font-md-100em{
 		font-size:100%;
 		font-size:1em;
 	}
-	.md-125em{
+	.font-md-125em{
 		font-size:125%;
 		font-size:1.25em;
 	}
-	.md-150em{
+	.font-md-150em{
 		font-size:150%;
 		font-size:1.5em;
 	}
-	.md-175em{
+	.font-md-175em{
 		font-size:175%;
 		font-size:1.75em;
 	}
-	.md-200em{
+	.font-md-200em{
 		font-size:200%;
 		font-size:2em;
 	}
@@ -386,60 +386,60 @@ section, main{
   html{
 	font-size:14px;
   }  
-  .lg-25rem, .lg-up-25rem{
+  .font-lg-25rem, .font-lg-up-25rem{
 	font-size:0.25rem;
   }
-  .lg-50rem, .lg-up-50rem{
+  .font-lg-50rem, .font-lg-up-50rem{
 	font-size:0.5rem;
   }
-  .lg-75rem, .lg-up-75rem{
+  .font-lg-75rem, .font-lg-up-75rem{
 	font-size:0.75rem;
   }
-  .lg-100rem, .lg-up-100rem{
+  .font-lg-100rem, .font-lg-up-100rem{
 	font-size:1rem;
   }
-  .lg-125rem, .lg-up-125rem{
+  .font-lg-125rem, .font-lg-up-125rem{
 	font-size:1.25rem;
   }
-  .lg-150rem, .lg-up-150rem{
+  .font-lg-150rem, .font-lg-up-150rem{
 	font-size:1.5rem;
   }
-  .lg-175rem, .lg-up-175rem{
+  .font-lg-175rem, .font-lg-up-175rem{
 	font-size:1.75rem;
   }
-  .lg-200rem, .lg-up-200rem{
+  .font-lg-200rem, .font-lg-up-200rem{
 	font-size:2rem;
   }
   
-  .lg-25em, .lg-up-25em{
+  .font-lg-25em, .font-lg-up-25em{
 	font-size:25%;
 	font-size:0.25em;
   }
-  .lg-50em, .lg-up-50em{
+  .font-lg-50em, .font-lg-up-50em{
 	font-size:50%;
 	font-size:0.5em;
   }
-  .lg-75em, .lg-up-75em{
+  .font-lg-75em, .font-lg-up-75em{
 	font-size:75%;
 	font-size:0.75em;
   }
-  .lg-100em, .lg-up-100em{
+  .font-lg-100em, .font-lg-up-100em{
 	font-size:100%;
 	font-size:1em;
   }
-  .lg-125em, .lg-up-125em{
+  .font-lg-125em, .font-lg-up-125em{
 	font-size:125%;
 	font-size:1.25em;
   }
-  .lg-150em, .lg-up-150em{
+  .font-lg-150em, .font-lg-up-150em{
 	font-size:150%;
 	font-size:1.5em;
   }
-  .lg-175em, .lg-up-175em{
+  .font-lg-175em, .font-lg-up-175em{
 	font-size:175%;
 	font-size:1.75em;
   }
-  .lg-200em, .lg-up-200em {
+  .font-lg-200em, .font-lg-up-200em {
 	font-size:200%;
 	font-size:2em;
   }
