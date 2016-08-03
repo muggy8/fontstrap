@@ -12,7 +12,7 @@ html{
 	-ms-text-size-adjust: 100%;
 	-webkit-text-size-adjust: 100%;
 }
-section, main, nav{
+section, main, nav, article, footer, header{
 	font-size: 1rem;
 }
 /*
