@@ -12,7 +12,9 @@ html{
 	-ms-text-size-adjust: 100%;
 	-webkit-text-size-adjust: 100%;
 }
-
+section, main{
+	font-size: 1rem;
+}
 /*
 [class*="-25em"], [class*="-25rem"], [class*="-50em"], [class*="-50rem"], [class*="-75em"], [class*="-75rem"] , [class*="-100em"], [class*="-100rem"], [class*="-125em"], [class*="-125rem"], [class*="-150em"], [class*="-150rem"], [class*="-175em"], [class*="-175rem"], [class*="-200em"], [class*="-200rem"]{
 	transition:font-size .25s;
