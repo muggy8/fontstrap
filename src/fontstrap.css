@@ -20,7 +20,7 @@ section, main, nav{
 	transition:font-size .25s;
 }*/
 
-.font-0rem, .font-xs-up-0rem, .font-0em, .font-xs-up-0em, .font-0{
+.font-0rem, .font-xs-up-0rem, .font-0em, .font-xs-up-0em, .font-xs-up-0, .font-0{
 	font-size:0;
 }
 .font-25rem, .font-xs-up-25rem{
