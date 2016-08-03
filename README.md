@@ -8,13 +8,13 @@ Fontstrap is a bootstrap plugin(?) that lets you adjust your font size. It is in
 <p>the scale-units have 2 parts, for example md-125em would make the font size only 1.25em when the screen fits the condition for md (see bootstrap) if you want the font size to be applied to all fonts and up like bootstrap use something like class="md-up-125em" of courese if you can chain them together like in bootstrap.</p>
 <p>eg: class="col-xs-12 col-md-3 xs-200em font-sm-175em font-md-up-100em"</p>
 
-<p>the numbers that are supported right now is 25, 50, 75, 100, 125, 150, 172, 200 which I feel is plenty to get you started. You are free to modify them as you wish. The base fontstrap.css is inline ready and is relatively small. You can safely inline it into your base HTML if you're into that kind of things, the rest of the addon is a bit large and you probably want to load that after the fold aka link it in the footer or something (if you're using it at all). </p>
+<p>the numbers that are supported right now is 0, 25, 50, 75, 100, 125, 150, 172, 200 which I feel is plenty to get you started. You are free to modify them as you wish. The base fontstrap.css is inline ready and is relatively small. You can safely inline it into your base HTML if you're into that kind of things, the rest of the addon is a bit large and you probably want to load that after the fold aka link it in the footer or something (if you're using it at all). </p>
 
-<p>Simple compact view for possiable class names: font-[xs-/sm-/md-/lg-][up-](25/50/75/100/125/150/175/200)(em/rem)</p>
+<p>Simple compact view for possiable class names: font-[xs-/sm-/md-/lg-][up-](0/25/50/75/100/125/150/175/200)(em/rem)</p>
 <p>[] = optional</p>
 <p>() = manditory</p>
 <p>"font-up-150em" is not a thing</p>
-
+<p>"font-0" is a thing</p>
 <h2>Additional uses for fonts</h2>
 <p>font sizes can be used as a unit in CSS via <a href="http://zellwk.com/blog/rem-vs-em/">em and rem.</a> so if you try something like this: </p>
 
