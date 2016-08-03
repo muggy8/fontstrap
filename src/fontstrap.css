@@ -20,6 +20,9 @@ section, main{
 	transition:font-size .25s;
 }*/
 
+.font-0rem, .font-xs-up-0rem, .font-0em, .font-xs-up-0em, .font-0{
+	font-size:0;
+}
 .font-25rem, .font-xs-up-25rem{
 	font-size:0.25rem;
 }
@@ -79,6 +82,9 @@ section, main{
 }
 
 @media (max-width: 767px) { /*less than xs*/
+  .font-xs-0rem, .font-xs-0em, .font-xs-0{
+	font-size:0;
+  }
   .font-xs-25rem{
 	font-size:0.25rem;
   }
@@ -141,6 +147,9 @@ section, main{
   html{
 	font-size:18px;
   }
+  .font-sm-up-0rem, .font-sm-up-0em, .font-sm-up-0{
+	font-size:0;
+  }
   
   .font-sm-up-25rem{
 	font-size:0.25rem;
@@ -201,6 +210,9 @@ section, main{
   }
 
   @media (max-width: 991px) { /*and less than md*/
+	.font-sm-0rem, .font-sm-0em, .font-sm-0{
+		font-size:0;
+	}
 	.font-sm-25rem{
 		font-size:0.25rem;
 	}
@@ -264,6 +276,9 @@ section, main{
   html{
 	font-size:16px;
   }
+  .font-md-up-0rem, .font-md-up-0em, .font-md-up-0{
+	font-size:0;
+  }
   .font-md-up-25rem{
 	font-size:0.25rem;
   }
@@ -323,6 +338,9 @@ section, main{
   }
   
   @media (max-width: 1199px) { /*and less than lg*/
+	.font-md-0rem, .font-md-0em, .font-md-0{
+		font-size:0;
+	}
 	.font-md-25rem{
 		font-size:0.25rem;
 	}
@@ -386,6 +404,9 @@ section, main{
   html{
 	font-size:14px;
   }  
+  .font-lg-0rem, .font-lg-up-0rem, .font-lg-0em, .font-lg-up-0em, .font-lg-up-0, .font-lg-0{
+	font-size:0;
+  }
   .font-lg-25rem, .font-lg-up-25rem{
 	font-size:0.25rem;
   }
