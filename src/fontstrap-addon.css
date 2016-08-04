@@ -506,3 +506,108 @@
 .weight-900, .font-900, .font-xbold{
 	font-weight: 900;
 }
+
+/*</max->width-<0/1/2/3/4/5/6/7/8/9/10><em/rem>
+max- -> max-height:
+^height -> height:
+\dem -> __em;
+\drem -> __rem;
+
+$("[name]").each(function(item){
+	var number = $(".selector-name", item)[0].innerHTML.match(/\d{1,2}/);
+	$(".regex-rule-2, .regex-rule-3", item)[0].innerHTML = $(".regex-rule-2, .regex-rule-3", item)[0].innerHTML.replace("__", number);
+});
+
+https://muggy8.github.io/css-name-permutation/
+*/
+
+.width-0em{ 0em;}
+.width-0rem{ 0rem;}
+.width-1em{ 1em;}
+.width-1rem{ 1rem;}
+.width-2em{ 2em;}
+.width-2rem{ 2rem;}
+.width-3em{ 3em;}
+.width-3rem{ 3rem;}
+.width-4em{ 4em;}
+.width-4rem{ 4rem;}
+.width-5em{ 5em;}
+.width-5rem{ 5rem;}
+.width-6em{ 6em;}
+.width-6rem{ 6rem;}
+.width-7em{ 7em;}
+.width-7rem{ 7rem;}
+.width-8em{ 8em;}
+.width-8rem{ 8rem;}
+.width-9em{ 9em;}
+.width-9rem{ 9rem;}
+.width-10em{ 10em;}
+.width-10rem{ 10rem;}
+.max-width-0em{ max-width: 0em;}
+.max-width-0rem{ max-width: 0rem;}
+.max-width-1em{ max-width: 1em;}
+.max-width-1rem{ max-width: 1rem;}
+.max-width-2em{ max-width: 2em;}
+.max-width-2rem{ max-width: 2rem;}
+.max-width-3em{ max-width: 3em;}
+.max-width-3rem{ max-width: 3rem;}
+.max-width-4em{ max-width: 4em;}
+.max-width-4rem{ max-width: 4rem;}
+.max-width-5em{ max-width: 5em;}
+.max-width-5rem{ max-width: 5rem;}
+.max-width-6em{ max-width: 6em;}
+.max-width-6rem{ max-width: 6rem;}
+.max-width-7em{ max-width: 7em;}
+.max-width-7rem{ max-width: 7rem;}
+.max-width-8em{ max-width: 8em;}
+.max-width-8rem{ max-width: 8rem;}
+.max-width-9em{ max-width: 9em;}
+.max-width-9rem{ max-width: 9rem;}
+.max-width-10em{ max-width: 10em;}
+.max-width-10rem{ max-width: 10rem;}
+
+/*</max->height-<0/1/2/3/4/5/6/7/8/9/10><em/rem>*/
+.height-0em{ 0em;}
+.height-0rem{ 0rem;}
+.height-1em{ 1em;}
+.height-1rem{ 1rem;}
+.height-2em{ 2em;}
+.height-2rem{ 2rem;}
+.height-3em{ 3em;}
+.height-3rem{ 3rem;}
+.height-4em{ 4em;}
+.height-4rem{ 4rem;}
+.height-5em{ 5em;}
+.height-5rem{ 5rem;}
+.height-6em{ 6em;}
+.height-6rem{ 6rem;}
+.height-7em{ 7em;}
+.height-7rem{ 7rem;}
+.height-8em{ 8em;}
+.height-8rem{ 8rem;}
+.height-9em{ 9em;}
+.height-9rem{ 9rem;}
+.height-10em{ 10em;}
+.height-10rem{ 10rem;}
+.max-height-0em{ max-height: 0em;}
+.max-height-0rem{ max-height: 0rem;}
+.max-height-1em{ max-height: 1em;}
+.max-height-1rem{ max-height: 1rem;}
+.max-height-2em{ max-height: 2em;}
+.max-height-2rem{ max-height: 2rem;}
+.max-height-3em{ max-height: 3em;}
+.max-height-3rem{ max-height: 3rem;}
+.max-height-4em{ max-height: 4em;}
+.max-height-4rem{ max-height: 4rem;}
+.max-height-5em{ max-height: 5em;}
+.max-height-5rem{ max-height: 5rem;}
+.max-height-6em{ max-height: 6em;}
+.max-height-6rem{ max-height: 6rem;}
+.max-height-7em{ max-height: 7em;}
+.max-height-7rem{ max-height: 7rem;}
+.max-height-8em{ max-height: 8em;}
+.max-height-8rem{ max-height: 8rem;}
+.max-height-9em{ max-height: 9em;}
+.max-height-9rem{ max-height: 9rem;}
+.max-height-10em{ max-height: 10em;}
+.max-height-10rem{ max-height: 10rem;}
