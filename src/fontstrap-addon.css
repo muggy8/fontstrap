@@ -507,8 +507,9 @@
 	font-weight: 900;
 }
 
-/*</max->width-<0/1/2/3/4/5/6/7/8/9/10><em/rem>
+/*</max-/min->width-<0/1/2/3/4/5/6/7/8/9/10><em/rem>
 max- -> max-height:
+min- -> min-height:
 ^height -> height:
 \dem -> __em;
 \drem -> __rem;
@@ -565,8 +566,30 @@ https://muggy8.github.io/css-name-permutation/
 .max-width-9rem{ max-width: 9rem;}
 .max-width-10em{ max-width: 10em;}
 .max-width-10rem{ max-width: 10rem;}
+.min-width-0em{ min-width: 0em;}
+.min-width-0rem{ min-width: 0rem;}
+.min-width-1em{ min-width: 1em;}
+.min-width-1rem{ min-width: 1rem;}
+.min-width-2em{ min-width: 2em;}
+.min-width-2rem{ min-width: 2rem;}
+.min-width-3em{ min-width: 3em;}
+.min-width-3rem{ min-width: 3rem;}
+.min-width-4em{ min-width: 4em;}
+.min-width-4rem{ min-width: 4rem;}
+.min-width-5em{ min-width: 5em;}
+.min-width-5rem{ min-width: 5rem;}
+.min-width-6em{ min-width: 6em;}
+.min-width-6rem{ min-width: 6rem;}
+.min-width-7em{ min-width: 7em;}
+.min-width-7rem{ min-width: 7rem;}
+.min-width-8em{ min-width: 8em;}
+.min-width-8rem{ min-width: 8rem;}
+.min-width-9em{ min-width: 9em;}
+.min-width-9rem{ min-width: 9rem;}
+.min-width-10em{ min-width: 10em;}
+.min-width-10rem{ min-width: 10rem;}
 
-/*</max->height-<0/1/2/3/4/5/6/7/8/9/10><em/rem>*/
+/*</max-/min->height-<0/1/2/3/4/5/6/7/8/9/10><em/rem>*/
 .height-0em{ 0em;}
 .height-0rem{ 0rem;}
 .height-1em{ 1em;}
@@ -611,3 +634,25 @@ https://muggy8.github.io/css-name-permutation/
 .max-height-9rem{ max-height: 9rem;}
 .max-height-10em{ max-height: 10em;}
 .max-height-10rem{ max-height: 10rem;}
+.min-height-0em{ min-height: 0em;}
+.min-height-0rem{ min-height: 0rem;}
+.min-height-1em{ min-height: 1em;}
+.min-height-1rem{ min-height: 1rem;}
+.min-height-2em{ min-height: 2em;}
+.min-height-2rem{ min-height: 2rem;}
+.min-height-3em{ min-height: 3em;}
+.min-height-3rem{ min-height: 3rem;}
+.min-height-4em{ min-height: 4em;}
+.min-height-4rem{ min-height: 4rem;}
+.min-height-5em{ min-height: 5em;}
+.min-height-5rem{ min-height: 5rem;}
+.min-height-6em{ min-height: 6em;}
+.min-height-6rem{ min-height: 6rem;}
+.min-height-7em{ min-height: 7em;}
+.min-height-7rem{ min-height: 7rem;}
+.min-height-8em{ min-height: 8em;}
+.min-height-8rem{ min-height: 8rem;}
+.min-height-9em{ min-height: 9em;}
+.min-height-9rem{ min-height: 9rem;}
+.min-height-10em{ min-height: 10em;}
+.min-height-10rem{ min-height: 10rem;}
