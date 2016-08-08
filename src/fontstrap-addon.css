@@ -478,6 +478,59 @@
 	letter-spacing:2rem;
 }
 
+/*conntrolling line height
+lheight-<5/10/15/20/25/30/35/40/45/50/55/60/65/70/75/80/85/90/95/100/105/110/115/120/125><em/rem>
+
+$("[name]").each(function(item){
+	var number = $(".selector-name", item)[0].innerHTML.match(/\d{1,3}/)[0];
+	$(".regex-rule-1", item)[0].innerHTML = number/100;
+});
+*/
+
+.lheight-50em{ line-height: 0.5em;}
+.lheight-50rem{ line-height: 0.5rem;}
+.lheight-55em{ line-height: 0.55em;}
+.lheight-55rem{ line-height: 0.55rem;}
+.lheight-60em{ line-height: 0.6em;}
+.lheight-60rem{ line-height: 0.6rem;}
+.lheight-65em{ line-height: 0.65em;}
+.lheight-65rem{ line-height: 0.65rem;}
+.lheight-70em{ line-height: 0.7em;}
+.lheight-70rem{ line-height: 0.7rem;}
+.lheight-75em{ line-height: 0.75em;}
+.lheight-75rem{ line-height: 0.75rem;}
+.lheight-80em{ line-height: 0.8em;}
+.lheight-80rem{ line-height: 0.8rem;}
+.lheight-85em{ line-height: 0.85em;}
+.lheight-85rem{ line-height: 0.85rem;}
+.lheight-90em{ line-height: 0.9em;}
+.lheight-90rem{ line-height: 0.9rem;}
+.lheight-95em{ line-height: 0.95em;}
+.lheight-95rem{ line-height: 0.95rem;}
+.lheight-100em{ line-height: 1em;}
+.lheight-100rem{ line-height: 1rem;}
+.lheight-105em{ line-height: 1.05em;}
+.lheight-105rem{ line-height: 1.05rem;}
+.lheight-110em{ line-height: 1.1em;}
+.lheight-110rem{ line-height: 1.1rem;}
+.lheight-115em{ line-height: 1.15em;}
+.lheight-115rem{ line-height: 1.15rem;}
+.lheight-120em{ line-height: 1.2em;}
+.lheight-120rem{ line-height: 1.2rem;}
+.lheight-125em{ line-height: 1.25em;}
+.lheight-125rem{ line-height: 1.25rem;}
+.lheight-130em{ line-height: 1.3em;}
+.lheight-130rem{ line-height: 1.3rem;}
+.lheight-135em{ line-height: 1.35em;}
+.lheight-135rem{ line-height: 1.35rem;}
+.lheight-140em{ line-height: 1.4em;}
+.lheight-140rem{ line-height: 1.4rem;}
+.lheight-145em{ line-height: 1.45em;}
+.lheight-145rem{ line-height: 1.45rem;}
+.lheight-150em{ line-height: 1.5em;}
+.lheight-150rem{ line-height: 1.5rem;}
+
+
 /*adjust font weight... weight-# or font-<xlight, light, normal, bold, xbold>*/
 .weight-100, .font-100{
 	font-weight: 100;
