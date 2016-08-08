@@ -468,3 +468,6 @@ section, main, nav, article, footer, header{
 .spacefix:after{
 	content: " ";
 }
+.child-font-reset > *, .descendants-font-reset *{
+	font-size: 1rem;
+}
