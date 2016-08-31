@@ -15,7 +15,7 @@
 
 @start-scale-em: 0em;
 @start-scale-rem: 0rem;
-@end-scale: 300;
+@end-scale-percent: 300;
 @selector-increment: 25;
 
 .rem-adjust(@scaler){
@@ -71,57 +71,61 @@ section, main, nav, article, footer, header{
 	font-size: 1rem;
 }
 
-.make-up-fonts(mc, @start-scale-em, @end-scale, @selector-increment);
-.make-up-fonts(mc, @start-scale-rem, @end-scale, @selector-increment);
+.make-up-fonts(mc, @start-scale-em, @end-scale-percent, @selector-increment);
+.make-up-fonts(mc, @start-scale-rem, @end-scale-percent, @selector-increment);
 @media (max-width: (@mc-to-xs - 1px) ){
     
     .rem-adjust(@scale-factor-mc);
-    .make-fonts(mc, @start-scale-em, @end-scale, @selector-increment);
-    .make-fonts(mc, @start-scale-rem, @end-scale, @selector-increment);
+    .make-fonts(mc, @start-scale-em, @end-scale-percent, @selector-increment);
+    .make-fonts(mc, @start-scale-rem, @end-scale-percent, @selector-increment);
 }
 
 @media (min-width: @mc-to-xs ){
     .rem-adjust(@scale-factor-xs);
-    .make-up-fonts(xs, @start-scale-em, @end-scale, @selector-increment);
-    .make-up-fonts(xs, @start-scale-rem, @end-scale, @selector-increment);
+    .make-up-fonts(xs, @start-scale-em, @end-scale-percent, @selector-increment);
+    .make-up-fonts(xs, @start-scale-rem, @end-scale-percent, @selector-increment);
     @media(max-width: (@xs-to-sm - 1px)){
-        .make-fonts(xs, @start-scale-em, @end-scale, @selector-increment);
-        .make-fonts(xs, @start-scale-rem, @end-scale, @selector-increment);
+        .make-fonts(xs, @start-scale-em, @end-scale-percent, @selector-increment);
+        .make-fonts(xs, @start-scale-rem, @end-scale-percent, @selector-increment);
     }
 }
 
 @media (min-width: @xs-to-sm ){
     .rem-adjust(@scale-factor-sm);
-    .make-up-fonts(sm, @start-scale-em, @end-scale, @selector-increment);
-    .make-up-fonts(sm, @start-scale-rem, @end-scale, @selector-increment);
+    .make-up-fonts(sm, @start-scale-em, @end-scale-percent, @selector-increment);
+    .make-up-fonts(sm, @start-scale-rem, @end-scale-percent, @selector-increment);
     @media(max-width: (@sm-to-md - 1px)){
-        .make-fonts(sm, @start-scale-em, @end-scale, @selector-increment);
-        .make-fonts(sm, @start-scale-rem, @end-scale, @selector-increment);
+        .make-fonts(sm, @start-scale-em, @end-scale-percent, @selector-increment);
+        .make-fonts(sm, @start-scale-rem, @end-scale-percent, @selector-increment);
     }
 }
 
 @media (min-width: @sm-to-md ){
     .rem-adjust(@scale-factor-md);
-    .make-up-fonts(md, @start-scale-em, @end-scale, @selector-increment);
-    .make-up-fonts(md, @start-scale-rem, @end-scale, @selector-increment);
+    .make-up-fonts(md, @start-scale-em, @end-scale-percent, @selector-increment);
+    .make-up-fonts(md, @start-scale-rem, @end-scale-percent, @selector-increment);
     @media(max-width: (@md-to-lg - 1px)){
-        .make-fonts(md, @start-scale-em, @end-scale, @selector-increment);
-        .make-fonts(md, @start-scale-rem, @end-scale, @selector-increment);
+        .make-fonts(md, @start-scale-em, @end-scale-percent, @selector-increment);
+        .make-fonts(md, @start-scale-rem, @end-scale-percent, @selector-increment);
     }
 }
 
 @media (min-width: @md-to-lg ){
     .rem-adjust(@scale-factor-lg);
-    .make-up-fonts(lg, @start-scale-em, @end-scale, @selector-increment);
-    .make-up-fonts(lg, @start-scale-rem, @end-scale, @selector-increment);
+    .make-up-fonts(lg, @start-scale-em, @end-scale-percent, @selector-increment);
+    .make-up-fonts(lg, @start-scale-rem, @end-scale-percent, @selector-increment);
     @media(max-width: (@lg-to-xl - 1px)){
-        .make-fonts(lg, @start-scale-em, @end-scale, @selector-increment);
-        .make-fonts(lg, @start-scale-rem, @end-scale, @selector-increment);
+        .make-fonts(lg, @start-scale-em, @end-scale-percent, @selector-increment);
+        .make-fonts(lg, @start-scale-rem, @end-scale-percent, @selector-increment);
     }
 }
 
 @media (min-width: @lg-to-xl ){
     .rem-adjust(@scale-factor-xl);
-    .make-fonts(xl, @start-scale-em, @end-scale, @selector-increment);
-    .make-fonts(xl, @start-scale-rem, @end-scale, @selector-increment);
+    .make-fonts(xl, @start-scale-em, @end-scale-percent, @selector-increment);
+    .make-fonts(xl, @start-scale-rem, @end-scale-percent, @selector-increment);
+}
+
+.spacefix:after{
+	content: " ";
 }

@@ -941,5 +941,8 @@ header {
     font-size: 3rem;
   }
 }
+.spacefix:after {
+  content: " ";
+}
 
 /*# sourceMappingURL=fontstrap.css.map */
