@@ -1,6 +1,3 @@
-.font-mc-80rem {
-  font-size: 0.8 rem;
-}
 * {
   font-size: inherit;
   font-family: inherit;
@@ -10,6 +7,7 @@
   color: inherit;
 }
 html {
+  font-size: 16px;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
@@ -25,10 +23,90 @@ header {
   html {
     font-size: 16px;
   }
+  .font-mc-0em {
+    font-size: 0 em;
+  }
+  .font-mc-25em {
+    font-size: 0.25 em;
+  }
+  .font-mc-50em {
+    font-size: 0.5 em;
+  }
+  .font-mc-75em {
+    font-size: 0.75 em;
+  }
+  .font-mc-100em {
+    font-size: 1 em;
+  }
+  .font-mc-125em {
+    font-size: 1.25 em;
+  }
+  .font-mc-150em {
+    font-size: 1.5 em;
+  }
+  .font-mc-175em {
+    font-size: 1.75 em;
+  }
+  .font-mc-200em {
+    font-size: 2 em;
+  }
+  .font-mc-225em {
+    font-size: 2.25 em;
+  }
+  .font-mc-250em {
+    font-size: 2.5 em;
+  }
+  .font-mc-275em {
+    font-size: 2.75 em;
+  }
+  .font-mc-300em {
+    font-size: 3 em;
+  }
 }
 @media (min-width: 480px) {
   html {
     font-size: 18px;
+  }
+}
+@media (min-width: 480px) and (max-width: 767px) {
+  .font-xs-0em {
+    font-size: 0 em;
+  }
+  .font-xs-25em {
+    font-size: 0.25 em;
+  }
+  .font-xs-50em {
+    font-size: 0.5 em;
+  }
+  .font-xs-75em {
+    font-size: 0.75 em;
+  }
+  .font-xs-100em {
+    font-size: 1 em;
+  }
+  .font-xs-125em {
+    font-size: 1.25 em;
+  }
+  .font-xs-150em {
+    font-size: 1.5 em;
+  }
+  .font-xs-175em {
+    font-size: 1.75 em;
+  }
+  .font-xs-200em {
+    font-size: 2 em;
+  }
+  .font-xs-225em {
+    font-size: 2.25 em;
+  }
+  .font-xs-250em {
+    font-size: 2.5 em;
+  }
+  .font-xs-275em {
+    font-size: 2.75 em;
+  }
+  .font-xs-300em {
+    font-size: 3 em;
   }
 }
 @media (min-width: 768px) {
@@ -36,9 +114,91 @@ header {
     font-size: 17px;
   }
 }
+@media (min-width: 768px) and (max-width: 991px) {
+  .font-sm-0em {
+    font-size: 0 em;
+  }
+  .font-sm-25em {
+    font-size: 0.25 em;
+  }
+  .font-sm-50em {
+    font-size: 0.5 em;
+  }
+  .font-sm-75em {
+    font-size: 0.75 em;
+  }
+  .font-sm-100em {
+    font-size: 1 em;
+  }
+  .font-sm-125em {
+    font-size: 1.25 em;
+  }
+  .font-sm-150em {
+    font-size: 1.5 em;
+  }
+  .font-sm-175em {
+    font-size: 1.75 em;
+  }
+  .font-sm-200em {
+    font-size: 2 em;
+  }
+  .font-sm-225em {
+    font-size: 2.25 em;
+  }
+  .font-sm-250em {
+    font-size: 2.5 em;
+  }
+  .font-sm-275em {
+    font-size: 2.75 em;
+  }
+  .font-sm-300em {
+    font-size: 3 em;
+  }
+}
 @media (min-width: 992px) {
   html {
     font-size: 16px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .font-md-0em {
+    font-size: 0 em;
+  }
+  .font-md-25em {
+    font-size: 0.25 em;
+  }
+  .font-md-50em {
+    font-size: 0.5 em;
+  }
+  .font-md-75em {
+    font-size: 0.75 em;
+  }
+  .font-md-100em {
+    font-size: 1 em;
+  }
+  .font-md-125em {
+    font-size: 1.25 em;
+  }
+  .font-md-150em {
+    font-size: 1.5 em;
+  }
+  .font-md-175em {
+    font-size: 1.75 em;
+  }
+  .font-md-200em {
+    font-size: 2 em;
+  }
+  .font-md-225em {
+    font-size: 2.25 em;
+  }
+  .font-md-250em {
+    font-size: 2.5 em;
+  }
+  .font-md-275em {
+    font-size: 2.75 em;
+  }
+  .font-md-300em {
+    font-size: 3 em;
   }
 }
 @media (min-width: 1200px) {
@@ -46,9 +206,89 @@ header {
     font-size: 15px;
   }
 }
+@media (min-width: 1200px) and (max-width: 1439px) {
+  .font-lg-0em {
+    font-size: 0 em;
+  }
+  .font-lg-25em {
+    font-size: 0.25 em;
+  }
+  .font-lg-50em {
+    font-size: 0.5 em;
+  }
+  .font-lg-75em {
+    font-size: 0.75 em;
+  }
+  .font-lg-100em {
+    font-size: 1 em;
+  }
+  .font-lg-125em {
+    font-size: 1.25 em;
+  }
+  .font-lg-150em {
+    font-size: 1.5 em;
+  }
+  .font-lg-175em {
+    font-size: 1.75 em;
+  }
+  .font-lg-200em {
+    font-size: 2 em;
+  }
+  .font-lg-225em {
+    font-size: 2.25 em;
+  }
+  .font-lg-250em {
+    font-size: 2.5 em;
+  }
+  .font-lg-275em {
+    font-size: 2.75 em;
+  }
+  .font-lg-300em {
+    font-size: 3 em;
+  }
+}
 @media (min-width: 1440px) {
   html {
     font-size: 14px;
+  }
+  .font-xl-0em {
+    font-size: 0 em;
+  }
+  .font-xl-25em {
+    font-size: 0.25 em;
+  }
+  .font-xl-50em {
+    font-size: 0.5 em;
+  }
+  .font-xl-75em {
+    font-size: 0.75 em;
+  }
+  .font-xl-100em {
+    font-size: 1 em;
+  }
+  .font-xl-125em {
+    font-size: 1.25 em;
+  }
+  .font-xl-150em {
+    font-size: 1.5 em;
+  }
+  .font-xl-175em {
+    font-size: 1.75 em;
+  }
+  .font-xl-200em {
+    font-size: 2 em;
+  }
+  .font-xl-225em {
+    font-size: 2.25 em;
+  }
+  .font-xl-250em {
+    font-size: 2.5 em;
+  }
+  .font-xl-275em {
+    font-size: 2.75 em;
+  }
+  .font-xl-300em {
+    font-size: 3 em;
   }
 }
 
