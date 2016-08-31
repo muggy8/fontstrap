@@ -1,3 +1,20 @@
+@font-size-default: 18px;
+
+@mc-to-xs: 480px; // smart watch? no prob (short for micro)
+@xs-to-sm: 768px; // phone
+@sm-to-md: 992px; // tablet
+@md-to-lg: 1200px; // old monitor
+@lg-to-xl: 1440px; // general monitor
+
+@scale-factor-mc: -2;
+@scale-factor-xs: +0;
+@scale-factor-sm: -1;
+@scale-factor-md: -2;
+@scale-factor-lg: -3;
+@scale-factor-xl: -4;
+
+
+
 *{
 	font-size: inherit;
 	font-family: inherit;
@@ -7,10 +24,40 @@
 	color: inherit;
 }
 html{
-	font-size:20px;
+	font-size:@font-size-default;
 	-ms-text-size-adjust: 100%;
 	-webkit-text-size-adjust: 100%;
 }
 section, main, nav, article, footer, header{
 	font-size: 1rem;
+}
+
+@media (max-width: (@mc-to-xs - 1px) ){
+    
+}
+
+@media (min-width: @mc-to-xs ){
+    
+    @media(max-width: (@xs-to-sm - 1px)){
+        
+    }
+}
+
+@media (min-width: @xs-to-sm ){
+    
+    @media(max-width: (@sm-to-md - 1px)){
+        
+    }
+}
+
+@media (min-width: @sm-to-md ){
+    
+    @media(max-width: (@md-to-lg - 1px)){
+        
+    }
+}
+
+@media (min-width: @lg-to-xl ){
+    
+    
 }
