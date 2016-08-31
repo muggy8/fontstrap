@@ -1,0 +1,23 @@
+* {
+  font-size: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+  line-height: inherit;
+  letter-spacing: inherit;
+  color: inherit;
+}
+html {
+  font-size: 20px;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+section,
+main,
+nav,
+article,
+footer,
+header {
+  font-size: 1rem;
+}
+
+/*# sourceMappingURL=fontstrap.css.map */

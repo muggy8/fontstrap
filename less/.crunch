@@ -1,0 +1,23 @@
+{
+	"files": {
+		"fontstrap-base.less": {
+			"engines": [
+				{
+					"compiler": "less",
+					"output": "dist/fontstrap.css",
+					"options": {
+						"compress": false,
+						"ieCompat": false,
+						"strictMath": false,
+						"strictUnits": false,
+						"javascriptEnabled": false,
+						"sourceMap": true
+					}
+				}
+			],
+			"sources": [
+				"fontstrap-base.less"
+			]
+		}
+	}
+}
