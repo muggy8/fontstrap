@@ -13,7 +13,11 @@
 @scale-factor-lg: -3;
 @scale-factor-xl: -4;
 
-
+.rem-adjust(@scaler){
+    html{
+        font-size: (@font-size-default + @scaler);    
+    }
+}
 
 *{
 	font-size: inherit;
@@ -24,7 +28,7 @@
 	color: inherit;
 }
 html{
-	font-size:@font-size-default;
+	//font-size: @font-size-default + @scale-factor-mc;
 	-ms-text-size-adjust: 100%;
 	-webkit-text-size-adjust: 100%;
 }
@@ -34,9 +38,12 @@ section, main, nav, article, footer, header{
 
 @media (max-width: (@mc-to-xs - 1px) ){
     
+    .rem-adjust(@scale-factor-mc);
+    
 }
 
 @media (min-width: @mc-to-xs ){
+    .rem-adjust(@scale-factor-xs);
     
     @media(max-width: (@xs-to-sm - 1px)){
         
@@ -44,6 +51,7 @@ section, main, nav, article, footer, header{
 }
 
 @media (min-width: @xs-to-sm ){
+    .rem-adjust(@scale-factor-sm);
     
     @media(max-width: (@sm-to-md - 1px)){
         
@@ -51,13 +59,22 @@ section, main, nav, article, footer, header{
 }
 
 @media (min-width: @sm-to-md ){
+    .rem-adjust(@scale-factor-md);
     
     @media(max-width: (@md-to-lg - 1px)){
         
     }
 }
 
-@media (min-width: @lg-to-xl ){
+@media (min-width: @md-to-lg ){
+    .rem-adjust(@scale-factor-lg);
     
+    @media(max-width: (@lg-to-xl - 1px)){
+        
+    }
+}
+
+@media (min-width: @lg-to-xl ){
+    .rem-adjust(@scale-factor-xl);
     
 }
