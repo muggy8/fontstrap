@@ -19,6 +19,14 @@
     }
 }
 
+.selector-still(@size, @percent, @unit){
+    .font-@{size}-@{percent}@{unit}{
+        font-size: (@percent / 100)@unit;
+    }
+}
+
+.selector-still(mc, 80, rem);
+
 *{
 	font-size: inherit;
 	font-family: inherit;
