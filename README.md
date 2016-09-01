@@ -22,7 +22,7 @@ Fontstrap is a bootstrap plugin(?) that lets you adjust your font size. It is in
 <p>font sizes can be used as a unit in CSS via <a href="http://zellwk.com/blog/rem-vs-em/">em and rem.</a> so if you try something like this: </p>
 
 ...<br>
-&lt;style&gt;image-wrapper{padding:1em}&lt;/style&gt;<br>
+&lt;style&gt;.image-wrapper{padding:1em}&lt;/style&gt;<br>
 &lt;span class=&quot;image-wrapper font-75em md-up-50em&quot;&gt;&lt;img src=&quot;some-image.png&quot;&gt;&lt;/span&gt;<br>
 ...
 
