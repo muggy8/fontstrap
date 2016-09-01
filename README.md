@@ -21,9 +21,9 @@ Fontstrap is a bootstrap plugin(?) that lets you adjust your font size. It is in
 <h2>Additional uses for fonts</h2>
 <p>font sizes can be used as a unit in CSS via <a href="http://zellwk.com/blog/rem-vs-em/">em and rem.</a> so if you try something like this: </p>
 
-...
-&lt;style&gt;image-wrapper{padding:1em}&lt;/style&gt;
-&lt;span class=&quot;image-wrapper font-75em md-up-50em&quot;&gt;&lt;img src=&quot;some-image.png&quot;&gt;&lt;/span&gt;
+...<br>
+&lt;style&gt;image-wrapper{padding:1em}&lt;/style&gt;<br>
+&lt;span class=&quot;image-wrapper font-75em md-up-50em&quot;&gt;&lt;img src=&quot;some-image.png&quot;&gt;&lt;/span&gt;<br>
 ...
 
 <p>You would not need to write custome media queries for your image-wrapper class as it's padding will resize responsively based on the font size of your element. In conjunction with bootstrap, this lets you easily make minor adjustments to your layout. Where bootstrap lets you adjust large things like grids, fontstrap will let you adjust the smaller minor details. probably the most useful way of using this through the font-&lt;size&gt;-0 adjuster as you can use it to completely get rid of assets at spicific sizes assume they are sized to en em unit. In theory, you'd be able to have a main style sheet that does not contain any media queries and rely exclusively on bootstrap and fontstrap for adapting the layout for different views. </p>
