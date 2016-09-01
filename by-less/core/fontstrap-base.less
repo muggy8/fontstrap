@@ -24,20 +24,38 @@
     }
 }
 
-.selector-still(@size, @percent){
+.selector-still(@size, @percent) when (@percent = 0){
+    .font-@{size}-@{percent}, .font-@{size}-0{
+        font-size: @percent/100;
+    }
+}
+
+.selector-still(@size, @percent) when not (@percent = 0){
     .font-@{size}-@{percent}{
         font-size: @percent/100;
     }
 }
 
-.selector-scale(@size, @percent) when not (@size = mc){
-    .font-@{size}-up-@{percent}{
+.selector-scale(@size, @percent) when (@size = mc) and (@percent = 0){
+    .font-@{size}-up-@{percent}, .font-@{percent}, .font-0{
         font-size: @percent/100;
     }
 }
 
-.selector-scale(@size, @percent) when (@size = mc){
+.selector-scale(@size, @percent) when (@size = mc) and not(@percent = 0){
     .font-@{size}-up-@{percent}, .font-@{percent}{
+        font-size: @percent/100;
+    }
+}
+
+.selector-scale(@size, @percent) when not (@size = mc) and (@percent = 0){
+    .font-@{size}-up-@{percent}, .font-@{size}-up-0{
+        font-size: @percent/100;
+    }
+}
+
+.selector-scale(@size, @percent) when not (@size = mc) and not (@percent = 0){
+    .font-@{size}-up-@{percent}{
         font-size: @percent/100;
     }
 }

@@ -20,7 +20,8 @@ header {
   font-size: 1rem;
 }
 .font-mc-up-0em,
-.font-0em {
+.font-0em,
+.font-0 {
   font-size: 0em;
 }
 .font-mc-up-25em,
@@ -72,7 +73,8 @@ header {
   font-size: 3em;
 }
 .font-mc-up-0rem,
-.font-0rem {
+.font-0rem,
+.font-0 {
   font-size: 0rem;
 }
 .font-mc-up-25rem,
@@ -127,7 +129,8 @@ header {
   html {
     font-size: 16px;
   }
-  .font-mc-0em {
+  .font-mc-0em,
+  .font-mc-0 {
     font-size: 0em;
   }
   .font-mc-25em {
@@ -166,7 +169,8 @@ header {
   .font-mc-300em {
     font-size: 3em;
   }
-  .font-mc-0rem {
+  .font-mc-0rem,
+  .font-mc-0 {
     font-size: 0rem;
   }
   .font-mc-25rem {
@@ -210,7 +214,8 @@ header {
   html {
     font-size: 18px;
   }
-  .font-xs-up-0em {
+  .font-xs-up-0em,
+  .font-xs-up-0 {
     font-size: 0em;
   }
   .font-xs-up-25em {
@@ -249,7 +254,8 @@ header {
   .font-xs-up-300em {
     font-size: 3em;
   }
-  .font-xs-up-0rem {
+  .font-xs-up-0rem,
+  .font-xs-up-0 {
     font-size: 0rem;
   }
   .font-xs-up-25rem {
@@ -290,7 +296,8 @@ header {
   }
 }
 @media (min-width: 480px) and (max-width: 767px) {
-  .font-xs-0em {
+  .font-xs-0em,
+  .font-xs-0 {
     font-size: 0em;
   }
   .font-xs-25em {
@@ -329,7 +336,8 @@ header {
   .font-xs-300em {
     font-size: 3em;
   }
-  .font-xs-0rem {
+  .font-xs-0rem,
+  .font-xs-0 {
     font-size: 0rem;
   }
   .font-xs-25rem {
@@ -373,7 +381,8 @@ header {
   html {
     font-size: 17px;
   }
-  .font-sm-up-0em {
+  .font-sm-up-0em,
+  .font-sm-up-0 {
     font-size: 0em;
   }
   .font-sm-up-25em {
@@ -412,7 +421,8 @@ header {
   .font-sm-up-300em {
     font-size: 3em;
   }
-  .font-sm-up-0rem {
+  .font-sm-up-0rem,
+  .font-sm-up-0 {
     font-size: 0rem;
   }
   .font-sm-up-25rem {
@@ -453,7 +463,8 @@ header {
   }
 }
 @media (min-width: 768px) and (max-width: 991px) {
-  .font-sm-0em {
+  .font-sm-0em,
+  .font-sm-0 {
     font-size: 0em;
   }
   .font-sm-25em {
@@ -492,7 +503,8 @@ header {
   .font-sm-300em {
     font-size: 3em;
   }
-  .font-sm-0rem {
+  .font-sm-0rem,
+  .font-sm-0 {
     font-size: 0rem;
   }
   .font-sm-25rem {
@@ -536,7 +548,8 @@ header {
   html {
     font-size: 16px;
   }
-  .font-md-up-0em {
+  .font-md-up-0em,
+  .font-md-up-0 {
     font-size: 0em;
   }
   .font-md-up-25em {
@@ -575,7 +588,8 @@ header {
   .font-md-up-300em {
     font-size: 3em;
   }
-  .font-md-up-0rem {
+  .font-md-up-0rem,
+  .font-md-up-0 {
     font-size: 0rem;
   }
   .font-md-up-25rem {
@@ -616,7 +630,8 @@ header {
   }
 }
 @media (min-width: 992px) and (max-width: 1199px) {
-  .font-md-0em {
+  .font-md-0em,
+  .font-md-0 {
     font-size: 0em;
   }
   .font-md-25em {
@@ -655,7 +670,8 @@ header {
   .font-md-300em {
     font-size: 3em;
   }
-  .font-md-0rem {
+  .font-md-0rem,
+  .font-md-0 {
     font-size: 0rem;
   }
   .font-md-25rem {
@@ -699,7 +715,8 @@ header {
   html {
     font-size: 15px;
   }
-  .font-lg-up-0em {
+  .font-lg-up-0em,
+  .font-lg-up-0 {
     font-size: 0em;
   }
   .font-lg-up-25em {
@@ -738,7 +755,8 @@ header {
   .font-lg-up-300em {
     font-size: 3em;
   }
-  .font-lg-up-0rem {
+  .font-lg-up-0rem,
+  .font-lg-up-0 {
     font-size: 0rem;
   }
   .font-lg-up-25rem {
@@ -779,7 +797,8 @@ header {
   }
 }
 @media (min-width: 1200px) and (max-width: 1439px) {
-  .font-lg-0em {
+  .font-lg-0em,
+  .font-lg-0 {
     font-size: 0em;
   }
   .font-lg-25em {
@@ -818,7 +837,8 @@ header {
   .font-lg-300em {
     font-size: 3em;
   }
-  .font-lg-0rem {
+  .font-lg-0rem,
+  .font-lg-0 {
     font-size: 0rem;
   }
   .font-lg-25rem {
@@ -862,7 +882,8 @@ header {
   html {
     font-size: 14px;
   }
-  .font-xl-0em {
+  .font-xl-0em,
+  .font-xl-0 {
     font-size: 0em;
   }
   .font-xl-25em {
@@ -901,7 +922,8 @@ header {
   .font-xl-300em {
     font-size: 3em;
   }
-  .font-xl-0rem {
+  .font-xl-0rem,
+  .font-xl-0 {
     font-size: 0rem;
   }
   .font-xl-25rem {
