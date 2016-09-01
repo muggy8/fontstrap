@@ -23,10 +23,12 @@ Fontstrap is a bootstrap plugin(?) that lets you adjust your font size. It is in
 
 ...<br>
 &lt;style&gt;.image-wrapper{padding:1em}&lt;/style&gt;<br>
-&lt;span class=&quot;image-wrapper font-75em md-up-50em&quot;&gt;&lt;img src=&quot;some-image.png&quot;&gt;&lt;/span&gt;<br>
+&lt;div class=&quot;image-wrapper font-75em md-up-50em&quot;&gt;&lt;img src=&quot;some-image.png&quot;&gt;&lt;/div&gt;<br>
 ...
 
-<p>You would not need to write custome media queries for your image-wrapper class as it's padding will resize responsively based on the font size of your element. In conjunction with bootstrap, this lets you easily make minor adjustments to your layout. Where bootstrap lets you adjust large things like grids, fontstrap will let you adjust the smaller minor details. probably the most useful way of using this through the font-&lt;size&gt;-0 adjuster as you can use it to completely get rid of assets at spicific sizes assume they are sized to en em unit. In theory, you'd be able to have a main style sheet that does not contain any media queries and rely exclusively on bootstrap and fontstrap for adapting the layout for different views. </p>
+<p>You would not need to write custome media queries for your image-wrapper class as it's padding will resize responsively based on the font size of your element. In conjunction with bootstrap, this lets you easily make minor adjustments to your layout. Where bootstrap lets you adjust large things like grids, fontstrap will let you adjust the smaller minor details. probably the most useful way of using this through the font-&lt;size&gt;-0 adjuster as you can use it to completely get rid of assets at spicific sizes assume they are sized to en em unit. In theory, you'd be able to have a main style sheet that does not contain any media queries and rely exclusively on bootstrap and fontstrap for adapting the layout for different views.</p>
+
+<p><strong>The biggest advantage of this is that it allows you to keep all of your responsive design choices in one place: the HTML file.</strong></p>
 
 <h3>fontstrap-addon.css?</h3>
 <p>If you want to have some predefined classes for making these small adjustments then that's wehre fontstrap-addon comes in. The default fonstrap will only carry with it responsive font sizes. In the addon CSS you'll find a number of other tools at your disposal. such as adjusting margin and padding as well as letter space and so on. Here's a list of the classes that are defined and an example of how to get some desired effects. You are often better off just declareing custome classes. In most of these cases unless stated otherwise numbers that are supported are: 25/50/75/100/125/150/175/200. Incase you did not notice, the addon styles exists in the by-hand folder.</p>
