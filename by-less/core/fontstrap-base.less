@@ -26,7 +26,7 @@
 
 .selector-still(@size, @percent) when (@percent = 0){
     .font-@{size}-@{percent}, .font-@{size}-0{
-        font-size: @percent/100;
+        font-size: 0;
     }
 }
 
@@ -38,7 +38,7 @@
 
 .selector-scale(@size, @percent) when (@size = mc) and (@percent = 0){
     .font-@{size}-up-@{percent}, .font-@{percent}, .font-0{
-        font-size: @percent/100;
+        font-size: 0;
     }
 }
 
@@ -50,7 +50,7 @@
 
 .selector-scale(@size, @percent) when not (@size = mc) and (@percent = 0){
     .font-@{size}-up-@{percent}, .font-@{size}-up-0{
-        font-size: @percent/100;
+        font-size: 0;
     }
 }
 
