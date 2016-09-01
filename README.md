@@ -1,6 +1,9 @@
 # About Fontstrap
 Fontstrap is a bootstrap plugin(?) that lets you adjust your font size. It is intended to be just that with literally nothing else but I think being able to fully control font-size responsively is just too powerful to not make use of elsewhere. After all em-units are really great for just about everything.
 
+<h2>Versions:</h2>
+<p>There are currently 2 versions of the style sheet. One set is produced by hand (I wrote it) and the other one is written in LESS and compiled into CSS. If you require a different increments/units or what not, I would suggest changing the configs in the LESS version. Additionally there's better support for different screen sizes in the less version as it has xl (extra large) and mc(micro) instead of just xs-lg that the current bootstrap standard. However if you do not require a different increment, wider scaling support, or smaller adjustments, I would suggest that you use the one I written by hand as that one is slightly cleaner and also much smaller (aka ships faster) which is found in the by-hand folder.</p>
+
 <h2>Documentations</h2>
 <h3>How to use:</h3>
 <p>class name convention: font-#em, font-#rem, font-"scale"-#em, font-"scale"-up-#em </p>
