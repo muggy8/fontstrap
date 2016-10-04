@@ -474,3 +474,6 @@ section, main, nav, article, footer, header{
 .font-anim, .font-transition{
 	transition:font-size 1s;
 }
+.orphin-fix{
+	white-space: nowrap;
+}
