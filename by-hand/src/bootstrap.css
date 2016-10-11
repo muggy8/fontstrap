@@ -382,6 +382,11 @@ picture img{
   .col-lg-1 {
     width: 8.33333333%;
   }
+  .col-lg-0 {
+    width: 0;
+	padding-left: 0;
+	padding-right: 0;
+  }
 }
 [class*="col-"]:before,
 [class*="col-"]:after,
