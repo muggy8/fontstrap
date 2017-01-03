@@ -1,0 +1,593 @@
+/*controlling letter space*/
+.lspace-0, .lspace-xs-up-0{letter-spacing:initial;}
+.lspace-5em, .lspace-xs-up-5em{letter-spacing:0.05em;}
+.lspace-10em, .lspace-xs-up-10em{letter-spacing:0.1em;}
+.lspace-15em, .lspace-xs-up-15em{letter-spacing:0.15em;}
+.lspace-20em, .lspace-xs-up-20em{letter-spacing:0.2em;}
+.lspace-25em, .lspace-xs-up-25em{letter-spacing:0.25em;}
+.lspace-50em, .lspace-xs-up-50em{letter-spacing:0.5em;}
+.lspace-75em, .lspace-xs-up-75em{letter-spacing:0.75em;}
+.lspace-100em, .lspace-xs-up-100em{letter-spacing:1em;}
+.lspace-125em, .lspace-xs-up-125em{letter-spacing:1.25em;}
+.lspace-150em, .lspace-xs-up-150em{letter-spacing:1.5em;}
+.lspace-175em, .lspace-xs-up-175em{letter-spacing:1.75em;}
+.lspace-200em, .lspace-xs-up-200em{letter-spacing:2em;}
+.lspace-5rem, .lspace-xs-up-5rem{letter-spacing:0.05rem;}
+.lspace-10rem, .lspace-xs-up-10rem{letter-spacing:0.1rem;}
+.lspace-15rem, .lspace-xs-up-15rem{letter-spacing:0.15rem;}
+.lspace-20rem, .lspace-xs-up-20rem{letter-spacing:0.2rem;}
+.lspace-25rem, .lspace-xs-up-25rem{letter-spacing:0.25rem;}
+.lspace-50rem, .lspace-xs-up-50rem{letter-spacing:0.5rem;}
+.lspace-75rem, .lspace-xs-up-75rem{letter-spacing:0.75rem;}
+.lspace-100rem, .lspace-xs-up-100rem{letter-spacing:1rem;}
+.lspace-125rem, .lspace-xs-up-125rem{letter-spacing:1.25rem;}
+.lspace-150rem, .lspace-xs-up-150rem{letter-spacing:1.5rem;}
+.lspace-175rem, .lspace-xs-up-175rem{letter-spacing:1.75rem;}
+.lspace-200rem, .lspace-xs-up-200rem{letter-spacing:2rem;}
+
+/*line height controls*/
+.lheight-50em, .lheight-xs-up-50em{ line-height: 0.5em;}
+.lheight-50rem, .lheight-xs-up-50rem{ line-height: 0.5rem;}
+.lheight-55em, .lheight-xs-up-55em{ line-height: 0.55em;}
+.lheight-55rem, .lheight-xs-up-55rem{ line-height: 0.55rem;}
+.lheight-60em, .lheight-xs-up-60em{ line-height: 0.6em;}
+.lheight-60rem, .lheight-xs-up-60rem{ line-height: 0.6rem;}
+.lheight-65em, .lheight-xs-up-65em{ line-height: 0.65em;}
+.lheight-65rem, .lheight-xs-up-65rem{ line-height: 0.65rem;}
+.lheight-70em, .lheight-xs-up-70em{ line-height: 0.7em;}
+.lheight-70rem, .lheight-xs-up-70rem{ line-height: 0.7rem;}
+.lheight-75em, .lheight-xs-up-75em{ line-height: 0.75em;}
+.lheight-75rem, .lheight-xs-up-75rem{ line-height: 0.75rem;}
+.lheight-80em, .lheight-xs-up-80em{ line-height: 0.8em;}
+.lheight-80rem, .lheight-xs-up-80rem{ line-height: 0.8rem;}
+.lheight-85em, .lheight-xs-up-85em{ line-height: 0.85em;}
+.lheight-85rem, .lheight-xs-up-85rem{ line-height: 0.85rem;}
+.lheight-90em, .lheight-xs-up-90em{ line-height: 0.9em;}
+.lheight-90rem, .lheight-xs-up-90rem{ line-height: 0.9rem;}
+.lheight-95em, .lheight-xs-up-95em{ line-height: 0.95em;}
+.lheight-95rem, .lheight-xs-up-95rem{ line-height: 0.95rem;}
+.lheight-100em, .lheight-xs-up-100em{ line-height: 1em;}
+.lheight-100rem, .lheight-xs-up-100rem{ line-height: 1rem;}
+.lheight-105em, .lheight-xs-up-105em{ line-height: 1.05em;}
+.lheight-105rem, .lheight-xs-up-105rem{ line-height: 1.05rem;}
+.lheight-110em, .lheight-xs-up-110em{ line-height: 1.1em;}
+.lheight-110rem, .lheight-xs-up-110rem{ line-height: 1.1rem;}
+.lheight-115em, .lheight-xs-up-115em{ line-height: 1.15em;}
+.lheight-115rem, .lheight-xs-up-115rem{ line-height: 1.15rem;}
+.lheight-120em, .lheight-xs-up-120em{ line-height: 1.2em;}
+.lheight-120rem, .lheight-xs-up-120rem{ line-height: 1.2rem;}
+.lheight-125em, .lheight-xs-up-125em{ line-height: 1.25em;}
+.lheight-125rem, .lheight-xs-up-125rem{ line-height: 1.25rem;}
+.lheight-130em, .lheight-xs-up-130em{ line-height: 1.3em;}
+.lheight-130rem, .lheight-xs-up-130rem{ line-height: 1.3rem;}
+.lheight-135em, .lheight-xs-up-135em{ line-height: 1.35em;}
+.lheight-135rem, .lheight-xs-up-135rem{ line-height: 1.35rem;}
+.lheight-140em, .lheight-xs-up-140em{ line-height: 1.4em;}
+.lheight-140rem, .lheight-xs-up-140rem{ line-height: 1.4rem;}
+.lheight-145em, .lheight-xs-up-145em{ line-height: 1.45em;}
+.lheight-145rem, .lheight-xs-up-145rem{ line-height: 1.45rem;}
+.lheight-150em, .lheight-xs-up-150em{ line-height: 1.5em;}
+.lheight-150rem, .lheight-xs-up-150rem{ line-height: 1.5rem;}
+
+/*font weight controls*/
+.weight-100, .font-100w, .weight-xs-up-100, .font-xs-up-100w{font-weight: 100;}
+.weight-200, .font-200w, .font-xlight, .weight-xs-up-200, .font-xs-up-200w, .font-xs-up-xlight{font-weight: 200;}
+.weight-300, .font-300w, .font-light, .weight-xs-up-300, .font-xs-up-300w, .font-xs-up-light{font-weight: 300;}
+.weight-400, .font-400w, .font-normal, .weight-xs-up-400, .font-xs-up-400w, .font-xs-up-normal{font-weight: 400;}
+.weight-500, .font-500w, .weight-xs-up-500, .font-xs-up-500w{font-weight: 500;}
+.weight-600, .font-600w, .weight-xs-up-600, .font-xs-up-600w{font-weight: 600;}
+.weight-700, .font-700w, .font-bold, .weight-xs-up-700, .font-xs-up-700w, .font-xs-up-bold{font-weight: 700;}
+.weight-800, .font-800w, .weight-xs-up-800, .font-xs-up-800w{font-weight: 800;}
+.weight-900, .font-900w, .font-xbold, .weight-xs-up-900, .font-xs-up-900w, .font-xs-up-xbold{font-weight: 900;}
+
+@media (max-width: 767px) { /*less than xs*/
+
+	/*controlling letter space*/
+	.lspace-xs-0{letter-spacing:initial;}
+	.lspace-xs-5em{letter-spacing:0.05em;}
+	.lspace-xs-10em{letter-spacing:0.1em;}
+	.lspace-xs-15em{letter-spacing:0.15em;}
+	.lspace-xs-20em{letter-spacing:0.2em;}
+	.lspace-xs-25em{letter-spacing:0.25em;}
+	.lspace-xs-50em{letter-spacing:0.5em;}
+	.lspace-xs-75em{letter-spacing:0.75em;}
+	.lspace-xs-100em{letter-spacing:1em;}
+	.lspace-xs-125em{letter-spacing:1.25em;}
+	.lspace-xs-150em{letter-spacing:1.5em;}
+	.lspace-xs-175em{letter-spacing:1.75em;}
+	.lspace-xs-200em{letter-spacing:2em;}
+	.lspace-xs-5rem{letter-spacing:0.05rem;}
+	.lspace-xs-10rem{letter-spacing:0.1rem;}
+	.lspace-xs-15rem{letter-spacing:0.15rem;}
+	.lspace-xs-20rem{letter-spacing:0.2rem;}
+	.lspace-xs-25rem{letter-spacing:0.25rem;}
+	.lspace-xs-50rem{letter-spacing:0.5rem;}
+	.lspace-xs-75rem{letter-spacing:0.75rem;}
+	.lspace-xs-100rem{letter-spacing:1rem;}
+	.lspace-xs-125rem{letter-spacing:1.25rem;}
+	.lspace-xs-150rem{letter-spacing:1.5rem;}
+	.lspace-xs-175rem{letter-spacing:1.75rem;}
+	.lspace-xs-200rem{letter-spacing:2rem;}
+
+	/*line height controls*/
+	.lheight-xs-50em{ line-height: 0.5em;}
+	.lheight-xs-50rem{ line-height: 0.5rem;}
+	.lheight-xs-55em{ line-height: 0.55em;}
+	.lheight-xs-55rem{ line-height: 0.55rem;}
+	.lheight-xs-60em{ line-height: 0.6em;}
+	.lheight-xs-60rem{ line-height: 0.6rem;}
+	.lheight-xs-65em{ line-height: 0.65em;}
+	.lheight-xs-65rem{ line-height: 0.65rem;}
+	.lheight-xs-70em{ line-height: 0.7em;}
+	.lheight-xs-70rem{ line-height: 0.7rem;}
+	.lheight-xs-75em{ line-height: 0.75em;}
+	.lheight-xs-75rem{ line-height: 0.75rem;}
+	.lheight-xs-80em{ line-height: 0.8em;}
+	.lheight-xs-80rem{ line-height: 0.8rem;}
+	.lheight-xs-85em{ line-height: 0.85em;}
+	.lheight-xs-85rem{ line-height: 0.85rem;}
+	.lheight-xs-90em{ line-height: 0.9em;}
+	.lheight-xs-90rem{ line-height: 0.9rem;}
+	.lheight-xs-95em{ line-height: 0.95em;}
+	.lheight-xs-95rem{ line-height: 0.95rem;}
+	.lheight-xs-100em{ line-height: 1em;}
+	.lheight-xs-100rem{ line-height: 1rem;}
+	.lheight-xs-105em{ line-height: 1.05em;}
+	.lheight-xs-105rem{ line-height: 1.05rem;}
+	.lheight-xs-110em{ line-height: 1.1em;}
+	.lheight-xs-110rem{ line-height: 1.1rem;}
+	.lheight-xs-115em{ line-height: 1.15em;}
+	.lheight-xs-115rem{ line-height: 1.15rem;}
+	.lheight-xs-120em{ line-height: 1.2em;}
+	.lheight-xs-120rem{ line-height: 1.2rem;}
+	.lheight-xs-125em{ line-height: 1.25em;}
+	.lheight-xs-125rem{ line-height: 1.25rem;}
+	.lheight-xs-130em{ line-height: 1.3em;}
+	.lheight-xs-130rem{ line-height: 1.3rem;}
+	.lheight-xs-135em{ line-height: 1.35em;}
+	.lheight-xs-135rem{ line-height: 1.35rem;}
+	.lheight-xs-140em{ line-height: 1.4em;}
+	.lheight-xs-140rem{ line-height: 1.4rem;}
+	.lheight-xs-145em{ line-height: 1.45em;}
+	.lheight-xs-145rem{ line-height: 1.45rem;}
+	.lheight-xs-150em{ line-height: 1.5em;}
+	.lheight-xs-150rem{ line-height: 1.5rem;}
+
+	/*font weight controls*/
+	.weight-xs-100, .font-xs-100w{font-weight: 100;}
+	.weight-xs-200, .font-xs-200w, .font-xs-xlight{font-weight: 200;}
+	.weight-xs-300, .font-xs-300w, .font-xs-light{font-weight: 300;}
+	.weight-xs-400, .font-xs-400w, .font-xs-normal{font-weight: 400;}
+	.weight-xs-500, .font-xs-500w{font-weight: 500;}
+	.weight-xs-600, .font-xs-600w{font-weight: 600;}
+	.weight-xs-700, .font-xs-700w, .font-xs-bold{font-weight: 700;}
+	.weight-xs-800, .font-xs-800w{font-weight: 800;}
+	.weight-xs-900, .font-xs-900w, .font-xs-xbold{font-weight: 900;}
+
+}
+
+@media (min-width: 768px) { /*sm and up*/
+
+	/*controlling letter space*/
+	.lspace-sm-up-0{letter-spacing:initial;}
+	.lspace-sm-up-5em{letter-spacing:0.05em;}
+	.lspace-sm-up-10em{letter-spacing:0.1em;}
+	.lspace-sm-up-15em{letter-spacing:0.15em;}
+	.lspace-sm-up-20em{letter-spacing:0.2em;}
+	.lspace-sm-up-25em{letter-spacing:0.25em;}
+	.lspace-sm-up-50em{letter-spacing:0.5em;}
+	.lspace-sm-up-75em{letter-spacing:0.75em;}
+	.lspace-sm-up-100em{letter-spacing:1em;}
+	.lspace-sm-up-125em{letter-spacing:1.25em;}
+	.lspace-sm-up-150em{letter-spacing:1.5em;}
+	.lspace-sm-up-175em{letter-spacing:1.75em;}
+	.lspace-sm-up-200em{letter-spacing:2em;}
+	.lspace-sm-up-5rem{letter-spacing:0.05rem;}
+	.lspace-sm-up-10rem{letter-spacing:0.1rem;}
+	.lspace-sm-up-15rem{letter-spacing:0.15rem;}
+	.lspace-sm-up-20rem{letter-spacing:0.2rem;}
+	.lspace-sm-up-25rem{letter-spacing:0.25rem;}
+	.lspace-sm-up-50rem{letter-spacing:0.5rem;}
+	.lspace-sm-up-75rem{letter-spacing:0.75rem;}
+	.lspace-sm-up-100rem{letter-spacing:1rem;}
+	.lspace-sm-up-125rem{letter-spacing:1.25rem;}
+	.lspace-sm-up-150rem{letter-spacing:1.5rem;}
+	.lspace-sm-up-175rem{letter-spacing:1.75rem;}
+	.lspace-sm-up-200rem{letter-spacing:2rem;}
+
+	/*line height controls*/
+	.lheight-sm-up-50em{ line-height: 0.5em;}
+	.lheight-sm-up-50rem{ line-height: 0.5rem;}
+	.lheight-sm-up-55em{ line-height: 0.55em;}
+	.lheight-sm-up-55rem{ line-height: 0.55rem;}
+	.lheight-sm-up-60em{ line-height: 0.6em;}
+	.lheight-sm-up-60rem{ line-height: 0.6rem;}
+	.lheight-sm-up-65em{ line-height: 0.65em;}
+	.lheight-sm-up-65rem{ line-height: 0.65rem;}
+	.lheight-sm-up-70em{ line-height: 0.7em;}
+	.lheight-sm-up-70rem{ line-height: 0.7rem;}
+	.lheight-sm-up-75em{ line-height: 0.75em;}
+	.lheight-sm-up-75rem{ line-height: 0.75rem;}
+	.lheight-sm-up-80em{ line-height: 0.8em;}
+	.lheight-sm-up-80rem{ line-height: 0.8rem;}
+	.lheight-sm-up-85em{ line-height: 0.85em;}
+	.lheight-sm-up-85rem{ line-height: 0.85rem;}
+	.lheight-sm-up-90em{ line-height: 0.9em;}
+	.lheight-sm-up-90rem{ line-height: 0.9rem;}
+	.lheight-sm-up-95em{ line-height: 0.95em;}
+	.lheight-sm-up-95rem{ line-height: 0.95rem;}
+	.lheight-sm-up-100em{ line-height: 1em;}
+	.lheight-sm-up-100rem{ line-height: 1rem;}
+	.lheight-sm-up-105em{ line-height: 1.05em;}
+	.lheight-sm-up-105rem{ line-height: 1.05rem;}
+	.lheight-sm-up-110em{ line-height: 1.1em;}
+	.lheight-sm-up-110rem{ line-height: 1.1rem;}
+	.lheight-sm-up-115em{ line-height: 1.15em;}
+	.lheight-sm-up-115rem{ line-height: 1.15rem;}
+	.lheight-sm-up-120em{ line-height: 1.2em;}
+	.lheight-sm-up-120rem{ line-height: 1.2rem;}
+	.lheight-sm-up-125em{ line-height: 1.25em;}
+	.lheight-sm-up-125rem{ line-height: 1.25rem;}
+	.lheight-sm-up-130em{ line-height: 1.3em;}
+	.lheight-sm-up-130rem{ line-height: 1.3rem;}
+	.lheight-sm-up-135em{ line-height: 1.35em;}
+	.lheight-sm-up-135rem{ line-height: 1.35rem;}
+	.lheight-sm-up-140em{ line-height: 1.4em;}
+	.lheight-sm-up-140rem{ line-height: 1.4rem;}
+	.lheight-sm-up-145em{ line-height: 1.45em;}
+	.lheight-sm-up-145rem{ line-height: 1.45rem;}
+	.lheight-sm-up-150em{ line-height: 1.5em;}
+	.lheight-sm-up-150rem{ line-height: 1.5rem;}
+
+	/*font weight controls*/
+	.weight-sm-up-100, .font-sm-up-100w{font-weight: 100;}
+	.weight-sm-up-200, .font-sm-up-200w, .font-sm-up-xlight{font-weight: 200;}
+	.weight-sm-up-300, .font-sm-up-300w, .font-sm-up-light{font-weight: 300;}
+	.weight-sm-up-400, .font-sm-up-400w, .font-sm-up-normal{font-weight: 400;}
+	.weight-sm-up-500, .font-sm-up-500w{font-weight: 500;}
+	.weight-sm-up-600, .font-sm-up-600w{font-weight: 600;}
+	.weight-sm-up-700, .font-sm-up-700w, .font-sm-up-bold{font-weight: 700;}
+	.weight-sm-up-800, .font-sm-up-800w{font-weight: 800;}
+	.weight-sm-up-900, .font-sm-up-900w, .font-sm-up-xbold{font-weight: 900;}
+
+	@media (max-width: 991px) { /*and less than md*/
+	
+		/*controlling letter space*/
+		.lspace-sm-0{letter-spacing:initial;}
+		.lspace-sm-5em{letter-spacing:0.05em;}
+		.lspace-sm-10em{letter-spacing:0.1em;}
+		.lspace-sm-15em{letter-spacing:0.15em;}
+		.lspace-sm-20em{letter-spacing:0.2em;}
+		.lspace-sm-25em{letter-spacing:0.25em;}
+		.lspace-sm-50em{letter-spacing:0.5em;}
+		.lspace-sm-75em{letter-spacing:0.75em;}
+		.lspace-sm-100em{letter-spacing:1em;}
+		.lspace-sm-125em{letter-spacing:1.25em;}
+		.lspace-sm-150em{letter-spacing:1.5em;}
+		.lspace-sm-175em{letter-spacing:1.75em;}
+		.lspace-sm-200em{letter-spacing:2em;}
+		.lspace-sm-5rem{letter-spacing:0.05rem;}
+		.lspace-sm-10rem{letter-spacing:0.1rem;}
+		.lspace-sm-15rem{letter-spacing:0.15rem;}
+		.lspace-sm-20rem{letter-spacing:0.2rem;}
+		.lspace-sm-25rem{letter-spacing:0.25rem;}
+		.lspace-sm-50rem{letter-spacing:0.5rem;}
+		.lspace-sm-75rem{letter-spacing:0.75rem;}
+		.lspace-sm-100rem{letter-spacing:1rem;}
+		.lspace-sm-125rem{letter-spacing:1.25rem;}
+		.lspace-sm-150rem{letter-spacing:1.5rem;}
+		.lspace-sm-175rem{letter-spacing:1.75rem;}
+		.lspace-sm-200rem{letter-spacing:2rem;}
+
+		/*line height controls*/
+		.lheight-sm-50em{ line-height: 0.5em;}
+		.lheight-sm-50rem{ line-height: 0.5rem;}
+		.lheight-sm-55em{ line-height: 0.55em;}
+		.lheight-sm-55rem{ line-height: 0.55rem;}
+		.lheight-sm-60em{ line-height: 0.6em;}
+		.lheight-sm-60rem{ line-height: 0.6rem;}
+		.lheight-sm-65em{ line-height: 0.65em;}
+		.lheight-sm-65rem{ line-height: 0.65rem;}
+		.lheight-sm-70em{ line-height: 0.7em;}
+		.lheight-sm-70rem{ line-height: 0.7rem;}
+		.lheight-sm-75em{ line-height: 0.75em;}
+		.lheight-sm-75rem{ line-height: 0.75rem;}
+		.lheight-sm-80em{ line-height: 0.8em;}
+		.lheight-sm-80rem{ line-height: 0.8rem;}
+		.lheight-sm-85em{ line-height: 0.85em;}
+		.lheight-sm-85rem{ line-height: 0.85rem;}
+		.lheight-sm-90em{ line-height: 0.9em;}
+		.lheight-sm-90rem{ line-height: 0.9rem;}
+		.lheight-sm-95em{ line-height: 0.95em;}
+		.lheight-sm-95rem{ line-height: 0.95rem;}
+		.lheight-sm-100em{ line-height: 1em;}
+		.lheight-sm-100rem{ line-height: 1rem;}
+		.lheight-sm-105em{ line-height: 1.05em;}
+		.lheight-sm-105rem{ line-height: 1.05rem;}
+		.lheight-sm-110em{ line-height: 1.1em;}
+		.lheight-sm-110rem{ line-height: 1.1rem;}
+		.lheight-sm-115em{ line-height: 1.15em;}
+		.lheight-sm-115rem{ line-height: 1.15rem;}
+		.lheight-sm-120em{ line-height: 1.2em;}
+		.lheight-sm-120rem{ line-height: 1.2rem;}
+		.lheight-sm-125em{ line-height: 1.25em;}
+		.lheight-sm-125rem{ line-height: 1.25rem;}
+		.lheight-sm-130em{ line-height: 1.3em;}
+		.lheight-sm-130rem{ line-height: 1.3rem;}
+		.lheight-sm-135em{ line-height: 1.35em;}
+		.lheight-sm-135rem{ line-height: 1.35rem;}
+		.lheight-sm-140em{ line-height: 1.4em;}
+		.lheight-sm-140rem{ line-height: 1.4rem;}
+		.lheight-sm-145em{ line-height: 1.45em;}
+		.lheight-sm-145rem{ line-height: 1.45rem;}
+		.lheight-sm-150em{ line-height: 1.5em;}
+		.lheight-sm-150rem{ line-height: 1.5rem;}
+
+		/*font weight controls*/
+		.weight-sm-100, .font-sm-100w{font-weight: 100;}
+		.weight-sm-200, .font-sm-200w, .font-sm-xlight{font-weight: 200;}
+		.weight-sm-300, .font-sm-300w, .font-sm-light{font-weight: 300;}
+		.weight-sm-400, .font-sm-400w, .font-sm-normal{font-weight: 400;}
+		.weight-sm-500, .font-sm-500w{font-weight: 500;}
+		.weight-sm-600, .font-sm-600w{font-weight: 600;}
+		.weight-sm-700, .font-sm-700w, .font-sm-bold{font-weight: 700;}
+		.weight-sm-800, .font-sm-800w{font-weight: 800;}
+		.weight-sm-900, .font-sm-900w, .font-sm-xbold{font-weight: 900;}
+	
+	}
+}
+
+@media (min-width: 992px) { /*md and up*/
+	
+	/*controlling letter space*/
+	.lspace-md-up-0{letter-spacing:initial;}
+	.lspace-md-up-5em{letter-spacing:0.05em;}
+	.lspace-md-up-10em{letter-spacing:0.1em;}
+	.lspace-md-up-15em{letter-spacing:0.15em;}
+	.lspace-md-up-20em{letter-spacing:0.2em;}
+	.lspace-md-up-25em{letter-spacing:0.25em;}
+	.lspace-md-up-50em{letter-spacing:0.5em;}
+	.lspace-md-up-75em{letter-spacing:0.75em;}
+	.lspace-md-up-100em{letter-spacing:1em;}
+	.lspace-md-up-125em{letter-spacing:1.25em;}
+	.lspace-md-up-150em{letter-spacing:1.5em;}
+	.lspace-md-up-175em{letter-spacing:1.75em;}
+	.lspace-md-up-200em{letter-spacing:2em;}
+	.lspace-md-up-5rem{letter-spacing:0.05rem;}
+	.lspace-md-up-10rem{letter-spacing:0.1rem;}
+	.lspace-md-up-15rem{letter-spacing:0.15rem;}
+	.lspace-md-up-20rem{letter-spacing:0.2rem;}
+	.lspace-md-up-25rem{letter-spacing:0.25rem;}
+	.lspace-md-up-50rem{letter-spacing:0.5rem;}
+	.lspace-md-up-75rem{letter-spacing:0.75rem;}
+	.lspace-md-up-100rem{letter-spacing:1rem;}
+	.lspace-md-up-125rem{letter-spacing:1.25rem;}
+	.lspace-md-up-150rem{letter-spacing:1.5rem;}
+	.lspace-md-up-175rem{letter-spacing:1.75rem;}
+	.lspace-md-up-200rem{letter-spacing:2rem;}
+
+	/*line height controls*/
+	.lheight-md-up-50em{ line-height: 0.5em;}
+	.lheight-md-up-50rem{ line-height: 0.5rem;}
+	.lheight-md-up-55em{ line-height: 0.55em;}
+	.lheight-md-up-55rem{ line-height: 0.55rem;}
+	.lheight-md-up-60em{ line-height: 0.6em;}
+	.lheight-md-up-60rem{ line-height: 0.6rem;}
+	.lheight-md-up-65em{ line-height: 0.65em;}
+	.lheight-md-up-65rem{ line-height: 0.65rem;}
+	.lheight-md-up-70em{ line-height: 0.7em;}
+	.lheight-md-up-70rem{ line-height: 0.7rem;}
+	.lheight-md-up-75em{ line-height: 0.75em;}
+	.lheight-md-up-75rem{ line-height: 0.75rem;}
+	.lheight-md-up-80em{ line-height: 0.8em;}
+	.lheight-md-up-80rem{ line-height: 0.8rem;}
+	.lheight-md-up-85em{ line-height: 0.85em;}
+	.lheight-md-up-85rem{ line-height: 0.85rem;}
+	.lheight-md-up-90em{ line-height: 0.9em;}
+	.lheight-md-up-90rem{ line-height: 0.9rem;}
+	.lheight-md-up-95em{ line-height: 0.95em;}
+	.lheight-md-up-95rem{ line-height: 0.95rem;}
+	.lheight-md-up-100em{ line-height: 1em;}
+	.lheight-md-up-100rem{ line-height: 1rem;}
+	.lheight-md-up-105em{ line-height: 1.05em;}
+	.lheight-md-up-105rem{ line-height: 1.05rem;}
+	.lheight-md-up-110em{ line-height: 1.1em;}
+	.lheight-md-up-110rem{ line-height: 1.1rem;}
+	.lheight-md-up-115em{ line-height: 1.15em;}
+	.lheight-md-up-115rem{ line-height: 1.15rem;}
+	.lheight-md-up-120em{ line-height: 1.2em;}
+	.lheight-md-up-120rem{ line-height: 1.2rem;}
+	.lheight-md-up-125em{ line-height: 1.25em;}
+	.lheight-md-up-125rem{ line-height: 1.25rem;}
+	.lheight-md-up-130em{ line-height: 1.3em;}
+	.lheight-md-up-130rem{ line-height: 1.3rem;}
+	.lheight-md-up-135em{ line-height: 1.35em;}
+	.lheight-md-up-135rem{ line-height: 1.35rem;}
+	.lheight-md-up-140em{ line-height: 1.4em;}
+	.lheight-md-up-140rem{ line-height: 1.4rem;}
+	.lheight-md-up-145em{ line-height: 1.45em;}
+	.lheight-md-up-145rem{ line-height: 1.45rem;}
+	.lheight-md-up-150em{ line-height: 1.5em;}
+	.lheight-md-up-150rem{ line-height: 1.5rem;}
+
+	/*font weight controls*/
+	.weight-md-up-100, .font-md-up-100w{font-weight: 100;}
+	.weight-md-up-200, .font-md-up-200w, .font-md-up-xlight{font-weight: 200;}
+	.weight-md-up-300, .font-md-up-300w, .font-md-up-light{font-weight: 300;}
+	.weight-md-up-400, .font-md-up-400w, .font-md-up-normal{font-weight: 400;}
+	.weight-md-up-500, .font-md-up-500w{font-weight: 500;}
+	.weight-md-up-600, .font-md-up-600w{font-weight: 600;}
+	.weight-md-up-700, .font-md-up-700w, .font-md-up-bold{font-weight: 700;}
+	.weight-md-up-800, .font-md-up-800w{font-weight: 800;}
+	.weight-md-up-900, .font-md-up-900w, .font-md-up-xbold{font-weight: 900;}
+
+	@media (max-width: 1199px) { /*and less than lg*/
+		/*controlling letter space*/
+		.lspace-md-0{letter-spacing:initial;}
+		.lspace-md-5em{letter-spacing:0.05em;}
+		.lspace-md-10em{letter-spacing:0.1em;}
+		.lspace-md-15em{letter-spacing:0.15em;}
+		.lspace-md-20em{letter-spacing:0.2em;}
+		.lspace-md-25em{letter-spacing:0.25em;}
+		.lspace-md-50em{letter-spacing:0.5em;}
+		.lspace-md-75em{letter-spacing:0.75em;}
+		.lspace-md-100em{letter-spacing:1em;}
+		.lspace-md-125em{letter-spacing:1.25em;}
+		.lspace-md-150em{letter-spacing:1.5em;}
+		.lspace-md-175em{letter-spacing:1.75em;}
+		.lspace-md-200em{letter-spacing:2em;}
+		.lspace-md-5rem{letter-spacing:0.05rem;}
+		.lspace-md-10rem{letter-spacing:0.1rem;}
+		.lspace-md-15rem{letter-spacing:0.15rem;}
+		.lspace-md-20rem{letter-spacing:0.2rem;}
+		.lspace-md-25rem{letter-spacing:0.25rem;}
+		.lspace-md-50rem{letter-spacing:0.5rem;}
+		.lspace-md-75rem{letter-spacing:0.75rem;}
+		.lspace-md-100rem{letter-spacing:1rem;}
+		.lspace-md-125rem{letter-spacing:1.25rem;}
+		.lspace-md-150rem{letter-spacing:1.5rem;}
+		.lspace-md-175rem{letter-spacing:1.75rem;}
+		.lspace-md-200rem{letter-spacing:2rem;}
+
+		/*line height controls*/
+		.lheight-md-50em{ line-height: 0.5em;}
+		.lheight-md-50rem{ line-height: 0.5rem;}
+		.lheight-md-55em{ line-height: 0.55em;}
+		.lheight-md-55rem{ line-height: 0.55rem;}
+		.lheight-md-60em{ line-height: 0.6em;}
+		.lheight-md-60rem{ line-height: 0.6rem;}
+		.lheight-md-65em{ line-height: 0.65em;}
+		.lheight-md-65rem{ line-height: 0.65rem;}
+		.lheight-md-70em{ line-height: 0.7em;}
+		.lheight-md-70rem{ line-height: 0.7rem;}
+		.lheight-md-75em{ line-height: 0.75em;}
+		.lheight-md-75rem{ line-height: 0.75rem;}
+		.lheight-md-80em{ line-height: 0.8em;}
+		.lheight-md-80rem{ line-height: 0.8rem;}
+		.lheight-md-85em{ line-height: 0.85em;}
+		.lheight-md-85rem{ line-height: 0.85rem;}
+		.lheight-md-90em{ line-height: 0.9em;}
+		.lheight-md-90rem{ line-height: 0.9rem;}
+		.lheight-md-95em{ line-height: 0.95em;}
+		.lheight-md-95rem{ line-height: 0.95rem;}
+		.lheight-md-100em{ line-height: 1em;}
+		.lheight-md-100rem{ line-height: 1rem;}
+		.lheight-md-105em{ line-height: 1.05em;}
+		.lheight-md-105rem{ line-height: 1.05rem;}
+		.lheight-md-110em{ line-height: 1.1em;}
+		.lheight-md-110rem{ line-height: 1.1rem;}
+		.lheight-md-115em{ line-height: 1.15em;}
+		.lheight-md-115rem{ line-height: 1.15rem;}
+		.lheight-md-120em{ line-height: 1.2em;}
+		.lheight-md-120rem{ line-height: 1.2rem;}
+		.lheight-md-125em{ line-height: 1.25em;}
+		.lheight-md-125rem{ line-height: 1.25rem;}
+		.lheight-md-130em{ line-height: 1.3em;}
+		.lheight-md-130rem{ line-height: 1.3rem;}
+		.lheight-md-135em{ line-height: 1.35em;}
+		.lheight-md-135rem{ line-height: 1.35rem;}
+		.lheight-md-140em{ line-height: 1.4em;}
+		.lheight-md-140rem{ line-height: 1.4rem;}
+		.lheight-md-145em{ line-height: 1.45em;}
+		.lheight-md-145rem{ line-height: 1.45rem;}
+		.lheight-md-150em{ line-height: 1.5em;}
+		.lheight-md-150rem{ line-height: 1.5rem;}
+
+		/*font weight controls*/
+		.weight-md-100, .font-md-100w{font-weight: 100;}
+		.weight-md-200, .font-md-200w, .font-md-xlight{font-weight: 200;}
+		.weight-md-300, .font-md-300w, .font-md-light{font-weight: 300;}
+		.weight-md-400, .font-md-400w, .font-md-normal{font-weight: 400;}
+		.weight-md-500, .font-md-500w{font-weight: 500;}
+		.weight-md-600, .font-md-600w{font-weight: 600;}
+		.weight-md-700, .font-md-700w, .font-md-bold{font-weight: 700;}
+		.weight-md-800, .font-md-800w{font-weight: 800;}
+		.weight-md-900, .font-md-900w, .font-md-xbold{font-weight: 900;}
+	}
+}
+
+@media (min-width: 1200px) { /*lg and up*/
+
+	/*controlling letter space*/
+	.lspace-lg-0, .lspace-lg-up-0{letter-spacing:initial;}
+	.lspace-lg-5em, .lspace-lg-up-5em{letter-spacing:0.05em;}
+	.lspace-lg-10em, .lspace-lg-up-10em{letter-spacing:0.1em;}
+	.lspace-lg-15em, .lspace-lg-up-15em{letter-spacing:0.15em;}
+	.lspace-lg-20em, .lspace-lg-up-20em{letter-spacing:0.2em;}
+	.lspace-lg-25em, .lspace-lg-up-25em{letter-spacing:0.25em;}
+	.lspace-lg-50em, .lspace-lg-up-50em{letter-spacing:0.5em;}
+	.lspace-lg-75em, .lspace-lg-up-75em{letter-spacing:0.75em;}
+	.lspace-lg-100em, .lspace-lg-up-100em{letter-spacing:1em;}
+	.lspace-lg-125em, .lspace-lg-up-125em{letter-spacing:1.25em;}
+	.lspace-lg-150em, .lspace-lg-up-150em{letter-spacing:1.5em;}
+	.lspace-lg-175em, .lspace-lg-up-175em{letter-spacing:1.75em;}
+	.lspace-lg-200em, .lspace-lg-up-200em{letter-spacing:2em;}
+	.lspace-lg-5rem, .lspace-lg-up-5rem{letter-spacing:0.05rem;}
+	.lspace-lg-10rem, .lspace-lg-up-10rem{letter-spacing:0.1rem;}
+	.lspace-lg-15rem, .lspace-lg-up-15rem{letter-spacing:0.15rem;}
+	.lspace-lg-20rem, .lspace-lg-up-20rem{letter-spacing:0.2rem;}
+	.lspace-lg-25rem, .lspace-lg-up-25rem{letter-spacing:0.25rem;}
+	.lspace-lg-50rem, .lspace-lg-up-50rem{letter-spacing:0.5rem;}
+	.lspace-lg-75rem, .lspace-lg-up-75rem{letter-spacing:0.75rem;}
+	.lspace-lg-100rem, .lspace-lg-up-100rem{letter-spacing:1rem;}
+	.lspace-lg-125rem, .lspace-lg-up-125rem{letter-spacing:1.25rem;}
+	.lspace-lg-150rem, .lspace-lg-up-150rem{letter-spacing:1.5rem;}
+	.lspace-lg-175rem, .lspace-lg-up-175rem{letter-spacing:1.75rem;}
+	.lspace-lg-200rem, .lspace-lg-up-200rem{letter-spacing:2rem;}
+
+	/*line height controls*/
+	.lheight-lg-50em, .lheight-lg-up-50em{ line-height: 0.5em;}
+	.lheight-lg-50rem, .lheight-lg-up-50rem{ line-height: 0.5rem;}
+	.lheight-lg-55em, .lheight-lg-up-55em{ line-height: 0.55em;}
+	.lheight-lg-55rem, .lheight-lg-up-55rem{ line-height: 0.55rem;}
+	.lheight-lg-60em, .lheight-lg-up-60em{ line-height: 0.6em;}
+	.lheight-lg-60rem, .lheight-lg-up-60rem{ line-height: 0.6rem;}
+	.lheight-lg-65em, .lheight-lg-up-65em{ line-height: 0.65em;}
+	.lheight-lg-65rem, .lheight-lg-up-65rem{ line-height: 0.65rem;}
+	.lheight-lg-70em, .lheight-lg-up-70em{ line-height: 0.7em;}
+	.lheight-lg-70rem, .lheight-lg-up-70rem{ line-height: 0.7rem;}
+	.lheight-lg-75em, .lheight-lg-up-75em{ line-height: 0.75em;}
+	.lheight-lg-75rem, .lheight-lg-up-75rem{ line-height: 0.75rem;}
+	.lheight-lg-80em, .lheight-lg-up-80em{ line-height: 0.8em;}
+	.lheight-lg-80rem, .lheight-lg-up-80rem{ line-height: 0.8rem;}
+	.lheight-lg-85em, .lheight-lg-up-85em{ line-height: 0.85em;}
+	.lheight-lg-85rem, .lheight-lg-up-85rem{ line-height: 0.85rem;}
+	.lheight-lg-90em, .lheight-lg-up-90em{ line-height: 0.9em;}
+	.lheight-lg-90rem, .lheight-lg-up-90rem{ line-height: 0.9rem;}
+	.lheight-lg-95em, .lheight-lg-up-95em{ line-height: 0.95em;}
+	.lheight-lg-95rem, .lheight-lg-up-95rem{ line-height: 0.95rem;}
+	.lheight-lg-100em, .lheight-lg-up-100em{ line-height: 1em;}
+	.lheight-lg-100rem, .lheight-lg-up-100rem{ line-height: 1rem;}
+	.lheight-lg-105em, .lheight-lg-up-105em{ line-height: 1.05em;}
+	.lheight-lg-105rem, .lheight-lg-up-105rem{ line-height: 1.05rem;}
+	.lheight-lg-110em, .lheight-lg-up-110em{ line-height: 1.1em;}
+	.lheight-lg-110rem, .lheight-lg-up-110rem{ line-height: 1.1rem;}
+	.lheight-lg-115em, .lheight-lg-up-115em{ line-height: 1.15em;}
+	.lheight-lg-115rem, .lheight-lg-up-115rem{ line-height: 1.15rem;}
+	.lheight-lg-120em, .lheight-lg-up-120em{ line-height: 1.2em;}
+	.lheight-lg-120rem, .lheight-lg-up-120rem{ line-height: 1.2rem;}
+	.lheight-lg-125em, .lheight-lg-up-125em{ line-height: 1.25em;}
+	.lheight-lg-125rem, .lheight-lg-up-125rem{ line-height: 1.25rem;}
+	.lheight-lg-130em, .lheight-lg-up-130em{ line-height: 1.3em;}
+	.lheight-lg-130rem, .lheight-lg-up-130rem{ line-height: 1.3rem;}
+	.lheight-lg-135em, .lheight-lg-up-135em{ line-height: 1.35em;}
+	.lheight-lg-135rem, .lheight-lg-up-135rem{ line-height: 1.35rem;}
+	.lheight-lg-140em, .lheight-lg-up-140em{ line-height: 1.4em;}
+	.lheight-lg-140rem, .lheight-lg-up-140rem{ line-height: 1.4rem;}
+	.lheight-lg-145em, .lheight-lg-up-145em{ line-height: 1.45em;}
+	.lheight-lg-145rem, .lheight-lg-up-145rem{ line-height: 1.45rem;}
+	.lheight-lg-150em, .lheight-lg-up-150em{ line-height: 1.5em;}
+	.lheight-lg-150rem, .lheight-lg-up-150rem{ line-height: 1.5rem;}
+
+	/*font weight controls*/
+	.weight-lg-100, .font-lg-100w, .weight-lg-up-100, .font-lg-up-100w{font-weight: 100;}
+	.weight-lg-200, .font-lg-200w, .font-lg-xlight, .weight-lg-up-200, .font-lg-up-200w, .font-lg-up-xlight{font-weight: 200;}
+	.weight-lg-300, .font-lg-300w, .font-lg-light, .weight-lg-up-300, .font-lg-up-300w, .font-lg-up-light{font-weight: 300;}
+	.weight-lg-400, .font-lg-400w, .font-lg-normal, .weight-lg-up-400, .font-lg-up-400w, .font-lg-up-normal{font-weight: 400;}
+	.weight-lg-500, .font-lg-500w, .weight-lg-up-500, .font-lg-up-500w{font-weight: 500;}
+	.weight-lg-600, .font-lg-600w, .weight-lg-up-600, .font-lg-up-600w{font-weight: 600;}
+	.weight-lg-700, .font-lg-700w, .font-lg-bold, .weight-lg-up-700, .font-lg-up-700w, .font-lg-up-bold{font-weight: 700;}
+	.weight-lg-800, .font-lg-800w, .weight-lg-up-800, .font-lg-up-800w{font-weight: 800;}
+	.weight-lg-900, .font-lg-900w, .font-lg-xbold, .weight-lg-up-900, .font-lg-up-900w, .font-lg-up-xbold{font-weight: 900;}
+
+}
