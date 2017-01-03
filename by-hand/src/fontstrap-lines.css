@@ -80,6 +80,15 @@
 .weight-800, .font-800w, .weight-xs-up-800, .font-xs-up-800w{font-weight: 800;}
 .weight-900, .font-900w, .font-xbold, .weight-xs-up-900, .font-xs-up-900w, .font-xs-up-xbold{font-weight: 900;}
 
+/*contrl for text alignment and stuff*/
+.text-left, .text-xs-up-left{text-align:left}
+.text-right, .text-xs-up-right{text-align:right}
+.text-center, .text-xs-up-center{text-align:center}
+.text-justify, .text-xs-up-justify{text-align:justify}
+.text-caps, .text-xs-up-caps{text-transform:uppercase}
+.text-italic, .text-xs-up-italic{font-style: italic}
+.text-underline, .text-xs-up-underline{text-decoration:underline}
+
 @media (max-width: 767px) { /*less than xs*/
 
 	/*controlling letter space*/
@@ -163,6 +172,15 @@
 	.weight-xs-700, .font-xs-700w, .font-xs-bold{font-weight: 700;}
 	.weight-xs-800, .font-xs-800w{font-weight: 800;}
 	.weight-xs-900, .font-xs-900w, .font-xs-xbold{font-weight: 900;}
+	
+	/*contrl for text alignment and stuff*/
+	.text-xs-left{text-align:left;}
+	.text-xs-right{text-align:right;}
+	.text-xs-center{text-align:center;}
+	.text-xs-justify{text-align:justify;}
+	.text-xs-caps{text-transform:uppercase;}
+	.text-xs-italic{font-style: italic;}
+	.text-xs-underline{text-decoration:underline}
 
 }
 
@@ -249,6 +267,15 @@
 	.weight-sm-up-700, .font-sm-up-700w, .font-sm-up-bold{font-weight: 700;}
 	.weight-sm-up-800, .font-sm-up-800w{font-weight: 800;}
 	.weight-sm-up-900, .font-sm-up-900w, .font-sm-up-xbold{font-weight: 900;}
+	
+	/*contrl for text alignment and stuff*/
+	.text-sm-up-left{text-align:left;}
+	.text-sm-up-right{text-align:right;}
+	.text-sm-up-center{text-align:center;}
+	.text-sm-up-justify{text-align:justify;}
+	.text-sm-up-caps{text-transform:uppercase;}
+	.text-sm-up-italic{font-style: italic;}
+	.text-sm-up-underline{text-decoration:underline}
 
 	@media (max-width: 991px) { /*and less than md*/
 	
@@ -334,6 +361,14 @@
 		.weight-sm-800, .font-sm-800w{font-weight: 800;}
 		.weight-sm-900, .font-sm-900w, .font-sm-xbold{font-weight: 900;}
 	
+		/*contrl for text alignment and stuff*/
+		.text-sm-left{text-align:left;}
+		.text-sm-right{text-align:right;}
+		.text-sm-center{text-align:center;}
+		.text-sm-justify{text-align:justify;}
+		.text-sm-caps{text-transform:uppercase;}
+		.text-sm-italic{font-style: italic;}
+		.text-sm-underline{text-decoration:underline}
 	}
 }
 
@@ -420,6 +455,15 @@
 	.weight-md-up-700, .font-md-up-700w, .font-md-up-bold{font-weight: 700;}
 	.weight-md-up-800, .font-md-up-800w{font-weight: 800;}
 	.weight-md-up-900, .font-md-up-900w, .font-md-up-xbold{font-weight: 900;}
+	
+	/*contrl for text alignment and stuff*/
+	.text-md-up-left{text-align:left;}
+	.text-md-up-right{text-align:right;}
+	.text-md-up-center{text-align:center;}
+	.text-md-up-justify{text-align:justify;}
+	.text-md-up-caps{text-transform:uppercase;}
+	.text-md-up-italic{font-style: italic;}
+	.text-md-up-underline{text-decoration:underline}
 
 	@media (max-width: 1199px) { /*and less than lg*/
 		/*controlling letter space*/
@@ -503,6 +547,15 @@
 		.weight-md-700, .font-md-700w, .font-md-bold{font-weight: 700;}
 		.weight-md-800, .font-md-800w{font-weight: 800;}
 		.weight-md-900, .font-md-900w, .font-md-xbold{font-weight: 900;}
+		
+		/*contrl for text alignment and stuff*/
+		.text-md-left{text-align:left;}
+		.text-md-right{text-align:right;}
+		.text-md-center{text-align:center;}
+		.text-md-justify{text-align:justify;}
+		.text-md-caps{text-transform:uppercase;}
+		.text-md-italic{font-style: italic;}
+		.text-md-underline{text-decoration:underline}
 	}
 }
 
@@ -590,4 +643,12 @@
 	.weight-lg-800, .font-lg-800w, .weight-lg-up-800, .font-lg-up-800w{font-weight: 800;}
 	.weight-lg-900, .font-lg-900w, .font-lg-xbold, .weight-lg-up-900, .font-lg-up-900w, .font-lg-up-xbold{font-weight: 900;}
 
+	/*contrl for text alignment and stuff*/
+	.text-lg-left, .text-lg-up-left{text-align:left}
+	.text-lg-right, .text-lg-up-right{text-align:right}
+	.text-lg-center, .text-lg-up-center{text-align:center}
+	.text-lg-justify, .text-lg-up-justify{text-align:justify}
+	.text-lg-caps, .text-lg-up-caps{text-transform:uppercase}
+	.text-lg-italic, .text-lg-up-italic{font-style: italic}
+	.text-lg-underline, .text-lg-up-underline{text-decoration:underline}
 }
